@@ -93,16 +93,13 @@ function App() {
         </nav> {/* end of navbar */}
         {/* end of navigation */}
         {/* Header */}
-        <header id="header" className="header py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32">
-          <div className="container px-4 sm:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8">
-            <div className="mb-16 lg:mt-32 xl:mt-40 xl:mr-12">
+        <header id="header" className="header py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32 frontpage-slider1">
+          <div className="container px-4 sm:px-8 lg:grid lg:grid-cols-1 lg:gap-x-8 text-center">
+            <div className="mb-16 lg:mt-32 xl:mt-40 xl:mr-320">
               <h2 className="h2-large mb-5">The best accounting platform for businesses</h2>
               <p className="p-large mb-8">Start getting your invoicing, expense tracking, reporting and inventory management done right with PeakBooks.</p>
               <a className="btn-solid-lg" href="https://www.peakbooks.biz/login">Login</a>
               <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/signup">Signup</a>
-            </div>
-            <div className="xl:text-right">
-              <img className="inline" src={accounting_} alt="alternative" />
             </div>
           </div> {/* end of container */}
         </header> {/* end of header */}

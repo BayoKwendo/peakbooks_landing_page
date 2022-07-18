@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color:white;
 }
 
 .App-link {
@@ -513,7 +513,7 @@ input[type="checkbox"] {
     display: block;
     padding-top: 0.625rem;
     padding-bottom: 0.625rem;
-    color: #6b747b;
+    color: blue;
     text-decoration: none;
     line-height: 0.875rem;
     transition: all 0.2s ease;
@@ -1258,3 +1258,9 @@ a:hover.back-to-top {
     /* end of extra pages */
 }
 /* end of min-width 1200px */
+
+
+.frontpage-slider1{
+  background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url("./images/accounting_2.jpeg") no-repeat center 67%;
+}
+
