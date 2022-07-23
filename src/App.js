@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import accounting_ from './images/accounting_.jpeg'
 import icon_1 from './images/features-icon-1.svg'
 import icon_2 from './images/features-icon-2.svg'
 import icon_3 from './images/features-icon-3.svg'
@@ -10,13 +8,11 @@ import result from './images/results.jpeg'
 import insight from './images/insights.jpeg'
 import dashboard from './images/dasboard_.png'
 import accounting_2 from './images/accounting_2.jpeg'
-import accounting_3 from './images/accounting_3.jpeg'
-import accounting_4 from './images/accounting_4.jpeg'
 
 import './App.css';
 import './swiper.css';
 import {Helmet} from "react-helmet";
-import { Navigation, Pagination, Autoplay, Scrollbar, A11y } from 'swiper';
+import { Navigation, Pagination, Autoplay } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
