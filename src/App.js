@@ -10,10 +10,21 @@ import result from './images/results.jpeg'
 import insight from './images/insights.jpeg'
 import dashboard from './images/dasboard_.png'
 import accounting_2 from './images/accounting_2.jpeg'
+import accounting_3 from './images/accounting_3.jpeg'
+import accounting_4 from './images/accounting_4.jpeg'
 
 import './App.css';
 import './swiper.css';
 import {Helmet} from "react-helmet";
+import { Navigation, Pagination, Autoplay, Scrollbar, A11y } from 'swiper';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
+import 'swiper/css/scrollbar';
 
 function App() {
   return (
@@ -93,16 +104,62 @@ function App() {
         </nav> {/* end of navbar */}
         {/* end of navigation */}
         {/* Header */}
-        <header id="header" className="header py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32 frontpage-slider1">
-          <div className="container px-4 sm:px-8 lg:grid lg:grid-cols-1 lg:gap-x-8 text-center">
-            <div className="mb-16 lg:mt-32 xl:mt-40 xl:mr-320">
-              <h2 className="h2-large mb-5">The best accounting platform for businesses</h2>
-              <p className="p-large mb-8">Start getting your invoicing, expense tracking, reporting and inventory management done right with PeakBooks.</p>
-              <a className="btn-solid-lg" href="https://www.peakbooks.biz/login">Login</a>
-              <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/signup">Signup</a>
-            </div>
-          </div> {/* end of container */}
-        </header> {/* end of header */}
+        <Swiper 
+          slidesPerView={1}
+          loop={true}
+          pagination={{ clickable: true}}
+          modules={[Pagination,Autoplay]}
+          autoplay={{ delay: 2000}} 
+          className="mySwiper">
+          <SwiperSlide>
+            <header id="header" className="header py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32 frontpage-slider1">
+              <div className="container px-4 sm:px-8 lg:grid lg:grid-cols-1 lg:gap-x-8 text-center">
+                <div className="mb-16 lg:mt-32 xl:mt-40 xl:mr-320">
+                  <h2 className="h2-large mb-5">The best accounting platform for businesses</h2>
+                  <p className="p-large mb-8">Start getting your invoicing, expense tracking, reporting and inventory management done right with PeakBooks.</p>
+                  <a className="btn-solid-lg" href="https://www.peakbooks.biz/login">Login</a>
+                  <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/signup">Signup</a>
+                </div>
+              </div> {/* end of container */}
+            </header> {/* end of header */}
+          </SwiperSlide>
+          <SwiperSlide>
+            <header id="header" className="header py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32 frontpage-slider2">
+              <div className="container px-4 sm:px-8 lg:grid lg:grid-cols-1 lg:gap-x-8 text-center">
+                <div className="mb-16 lg:mt-32 xl:mt-40 xl:mr-320">
+                  <h2 className="h2-large mb-5">The best accounting platform for businesses</h2>
+                  <p className="p-large mb-8">Start getting your invoicing, expense tracking, reporting and inventory management done right with PeakBooks.</p>
+                  <a className="btn-solid-lg" href="https://www.peakbooks.biz/login">Login</a>
+                  <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/signup">Signup</a>
+                </div>
+              </div> {/* end of container */}
+            </header> {/* end of header */}
+          </SwiperSlide>
+          <SwiperSlide>
+            <header id="header" className="header py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32 frontpage-slider3">
+              <div className="container px-4 sm:px-8 lg:grid lg:grid-cols-1 lg:gap-x-8 text-center">
+                <div className="mb-16 lg:mt-32 xl:mt-40 xl:mr-320">
+                  <h2 className="h2-large mb-5">The best accounting platform for businesses</h2>
+                  <p className="p-large mb-8">Start getting your invoicing, expense tracking, reporting and inventory management done right with PeakBooks.</p>
+                  <a className="btn-solid-lg" href="https://www.peakbooks.biz/login">Login</a>
+                  <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/signup">Signup</a>
+                </div>
+              </div> {/* end of container */}
+            </header> {/* end of header */}
+          </SwiperSlide>
+          <SwiperSlide>
+            <header id="header" className="header py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32 frontpage-slider4">
+              <div className="container px-4 sm:px-8 lg:grid lg:grid-cols-1 lg:gap-x-8 text-center">
+                <div className="mb-16 lg:mt-32 xl:mt-40 xl:mr-320">
+                  <h2 className="h2-large mb-5">The best accounting platform for businesses</h2>
+                  <p className="p-large mb-8">Start getting your invoicing, expense tracking, reporting and inventory management done right with PeakBooks.</p>
+                  <a className="btn-solid-lg" href="https://www.peakbooks.biz/login">Login</a>
+                  <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/signup">Signup</a>
+                </div>
+              </div> {/* end of container */}
+            </header> {/* end of header */}
+          </SwiperSlide>
+        </Swiper>
         {/* end of header */}
         {/* Introduction */}
         <div className="pt-4 pb-14 text-center">
@@ -384,27 +441,29 @@ function App() {
         </div> {/* end of counter */}
         {/* end of statistics */}
         {/* Testimonials */}
-        <div className="slider-1 py-32 bg-gray">
+        <div className="py-32 bg-gray">
           <div className="container px-4 sm:px-8">
             <h2 className="mb-12 text-center lg:max-w-xl lg:mx-auto">What do users think about Pavo</h2>
             {/* Card Slider */}
-            <div className="slider-container">
-              <div className="swiper-container card-slider">
-                <div className="swiper-wrapper">
+            <div className="reduce-con">
+              <div className="">
+                <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
                   {/* Slide */}
-                  <div className="swiper-slide">
+                  <SwiperSlide>
                     <div className="card">
-                      <img className="card-image" src alt="" />
-                      <div className="card-body">
+                      <div className="center-image">
+                        <img className="card-image" src alt="" />
+                      </div>
+                      <div className="card-body text-center">
                         <p className="italic mb-3">
                           PeakBooks is one of the best accounting systems in Kenya, they offer a wide range of products in just minutes. If you looking for reliable accounting services just try them.</p>
                         <p className="testimonial-author">Eric Ndungu</p>
                       </div>
                     </div>
-                  </div> {/* end of swiper-slide */}
+                  </SwiperSlide> {/* end of swiper-slide */}
                   {/* end of slide */}
                   {/* Slide */}
-                  <div className="swiper-slide">
+                  <SwiperSlide>
                     <div className="card">
                       <img className="card-image" src alt="" />
                       <div className="card-body">
@@ -412,10 +471,10 @@ function App() {
                         <p className="testimonial-author">Coach Ben</p>
                       </div>
                     </div>
-                  </div> {/* end of swiper-slide */}
+                  </SwiperSlide> {/* end of swiper-slide */}
                   {/* end of slide */}
                   {/* Slide */}
-                  <div className="swiper-slide">
+                  <SwiperSlide>
                     <div className="card">
                       <img className="card-image" src alt="" />
                       <div className="card-body">
@@ -423,10 +482,10 @@ function App() {
                         <p className="testimonial-author">Nixon Yebei</p>
                       </div>
                     </div>
-                  </div> {/* end of swiper-slide */}
+                  </SwiperSlide> {/* end of swiper-slide */}
                   {/* end of slide */}
                   {/* Slide */}
-                  <div className="swiper-slide">
+                  <SwiperSlide>
                     <div className="card">
                       <img className="card-image" src alt="" />
                       <div className="card-body">
@@ -434,10 +493,10 @@ function App() {
                         <p className="testimonial-author">Maswai Kelvin</p>
                       </div>
                     </div>
-                  </div> {/* end of swiper-slide */}
+                  </SwiperSlide> {/* end of swiper-slide */}
                   {/* end of slide */}
                   {/* Slide */}
-                  <div className="swiper-slide">
+                  <SwiperSlide>
                     <div className="card">
                       <img className="card-image" src alt="" />
                       <div className="card-body">
@@ -445,13 +504,11 @@ function App() {
                         <p className="testimonial-author">Captain Kiprop Linus</p>
                       </div>
                     </div>
-                  </div> {/* end of swiper-slide */}
+                  </SwiperSlide> {/* end of swiper-slide */}
                   {/* end of slide */}
                   {/* end of swiper-slide */}
-                </div> {/* end of swiper-wrapper */}
+                </Swiper> {/* end of swiper-wrapper */}
                 {/* Add Arrows */}
-                <div className="swiper-button-next" />
-                <div className="swiper-button-prev" />
                 {/* end of add arrows */}
               </div> {/* end of swiper-container */}
             </div> {/* end of slider-container */}

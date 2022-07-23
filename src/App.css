@@ -810,7 +810,7 @@ input[type="checkbox"] {
     position: relative;
     padding-top: 6rem;
     padding-bottom: 10rem;
-    background: linear-gradient(rgba(50, 60, 70, 0.9), rgba(50, 60, 70, 0.9)), url("./images/pricing-background.jpg") center center no-repeat;
+    background: linear-gradient(#032280,#032280), url("./images/pricing-background.jpg") center center no-repeat;
     background-size: cover;
     text-align: center;
 }
@@ -1264,3 +1264,23 @@ a:hover.back-to-top {
   background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url("./images/accounting_2.jpeg") no-repeat center 67%;
 }
 
+.frontpage-slider2{
+  background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url("./images/accounting_3.jpeg") no-repeat center 67%;
+}
+
+.frontpage-slider3{
+  background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url("./images/accounting_4.jpeg") no-repeat center 67%;
+}
+
+.frontpage-slider4{
+  background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url("./images/accounting_5.jpeg") no-repeat center 67%;
+}
+
+.center-image{
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+#features{
+  background-color: #032280;
+}
