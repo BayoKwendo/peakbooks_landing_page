@@ -587,16 +587,16 @@ function App() {
           <div className="container px-4 sm:px-8">
             <div id="counter">
               <div className="cell">
-                <div className="counter-value number-count" data-count={9999}>1</div>
+                <div className="counter-value number-count" data-count={10000}>1</div>
+                <p className="counter-info">Happy Users</p>
+              </div>
+              <div className="cell">
+                <div className="counter-value number-count" data-count={98900}>1</div>
                 <p className="counter-info">Reports Generated</p>
               </div>
               <div className="cell">
-                <div className="counter-value number-count" data-count={7000}>1</div>
-                <p className="counter-info">Invoices Generated</p>
-              </div>
-              <div className="cell">
-                <div className="counter-value number-count" data-count={3000}>1</div>
-                <p className="counter-info">Inventories Created</p>
+                <div className="counter-value number-count" data-count={500000}>1</div>
+                <p className="counter-info">Inventories Generated</p>
               </div>
             </div>
           </div>
