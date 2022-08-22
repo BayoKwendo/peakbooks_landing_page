@@ -4,9 +4,9 @@ import icon_3 from './images/features-icon-3.svg'
 import icon_4 from './images/features-icon-4.svg'
 import icon_5 from './images/features-icon-5.svg'
 import icon_6 from './images/features-icon-6.svg'
-import result from './images/results.jpeg'
+/*import result from './images/results.jpeg'
 import insight from './images/insights.jpeg'
-import dashboard from './images/dasboard_.png'
+import dashboard from './images/dasboard_.png'*/
 import accounting_2 from './images/accounting_2.jpeg'
 import video from './images/peakbooks.mp4'
 
@@ -14,9 +14,9 @@ import video from './images/peakbooks.mp4'
 import './App.css';
 import './swiper.css';
 import {Helmet} from "react-helmet";
-import { Navigation, Pagination, Autoplay } from 'swiper';
+/*import { Navigation, Pagination, Autoplay } from 'swiper';
 
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react';*/
 
 import 'swiper/css';
 import 'swiper/css/navigation';
