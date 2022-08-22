@@ -1284,3 +1284,7 @@ a:hover.back-to-top {
 #features{
   background-color: #032280;
 }
+
+.reduce-space{
+    margin-top: -50px;
+}
