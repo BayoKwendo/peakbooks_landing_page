@@ -476,7 +476,7 @@ function App() {
             <div className="card">
               <div className="card-body">
                 <div className="card-title">Standard Plan</div>
-                <div className="price"><span className="currency">₦</span><span className="value">52,800</span></div>
+                <div className="price"><span className="currency">₦</span><span className="value">1500</span></div>
                 <div className="frequency">annually</div>
                 <p>This is a more advanced package suited for medium companies</p>
                 <ul className="list mb-7 space-y-2 text-left">
@@ -586,14 +586,6 @@ function App() {
         <div className="counter">
           <div className="container px-4 sm:px-8">
             <div id="counter">
-              <div className="cell">
-                <div className="counter-value number-count" data-count={1000}>1</div>
-                <p className="counter-info"> Happy Users</p>
-              </div>
-              <div className="cell">
-                <div className="counter-value number-count" data-count={185}>1</div>
-                <p className="counter-info">Issues Solved</p>
-              </div>
               <div className="cell">
                 <div className="counter-value number-count" data-count={9999}>1</div>
                 <p className="counter-info">Reports Generated</p>
