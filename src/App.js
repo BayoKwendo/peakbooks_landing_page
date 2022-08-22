@@ -8,6 +8,8 @@ import result from './images/results.jpeg'
 import insight from './images/insights.jpeg'
 import dashboard from './images/dasboard_.png'
 import accounting_2 from './images/accounting_2.jpeg'
+import video from './images/peakbooks.mp4'
+
 
 import './App.css';
 import './swiper.css';
@@ -100,26 +102,26 @@ function App() {
         </nav> {/* end of navbar */}
         {/* end of navigation */}
         {/* Header */}
-        <Swiper 
-          slidesPerView={1}
-          loop={true}
-          pagination={{ clickable: true}}
-          modules={[Pagination,Autoplay]}
-          autoplay={{ delay: 2000}} 
+        <div 
           className="mySwiper">
-          <SwiperSlide>
-            <header id="header" className="header py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32 frontpage-slider1">
-              <div className="container px-4 sm:px-8 lg:grid lg:grid-cols-1 lg:gap-x-8 text-center">
-                <div className="mb-16 lg:mt-32 xl:mt-40 xl:mr-320">
-                  <h2 className="h2-large mb-5">The best accounting platform for businesses</h2>
-                  <p className="p-large mb-8">Start getting your invoicing, expense tracking, reporting and inventory management done right with PeakBooks.</p>
+          <div>
+            <header id="header" className="header py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32">
+              <div className="container px-4 sm:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8 text-center">
+                <div className="mb-16 lg:mt-32 xl:mt-40 xl:mr-320 reduce-space">
+                  <h2 className="h2-large mb-5">Africa’s number 1 Accounting software for SMEs.</h2>
+                  <p className="p-large mb-8">Why do manual accounting if you can automate?</p>
                   <a className="btn-solid-lg" href="https://www.peakbooks.biz/login">Login</a>
                   <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/signup">Signup</a>
                 </div>
+                <div className="xl:text-right">
+                  <video width="750" height="500" controls >
+                    <source src={video} type="video/mp4"/>
+                  </video>
+                </div>
               </div> {/* end of container */}
             </header> {/* end of header */}
-          </SwiperSlide>
-          <SwiperSlide>
+          </div>
+          {/*<SwiperSlide>
             <header id="header" className="header py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32 frontpage-slider2">
               <div className="container px-4 sm:px-8 lg:grid lg:grid-cols-1 lg:gap-x-8 text-center">
                 <div className="mb-16 lg:mt-32 xl:mt-40 xl:mr-320">
@@ -128,8 +130,8 @@ function App() {
                   <a className="btn-solid-lg" href="https://www.peakbooks.biz/login">Login</a>
                   <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/signup">Signup</a>
                 </div>
-              </div> {/* end of container */}
-            </header> {/* end of header */}
+              </div>
+            </header>
           </SwiperSlide>
           <SwiperSlide>
             <header id="header" className="header py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32 frontpage-slider3">
@@ -140,8 +142,8 @@ function App() {
                   <a className="btn-solid-lg" href="https://www.peakbooks.biz/login">Login</a>
                   <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/signup">Signup</a>
                 </div>
-              </div> {/* end of container */}
-            </header> {/* end of header */}
+              </div>
+            </header> 
           </SwiperSlide>
           <SwiperSlide>
             <header id="header" className="header py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32 frontpage-slider4">
@@ -152,15 +154,15 @@ function App() {
                   <a className="btn-solid-lg" href="https://www.peakbooks.biz/login">Login</a>
                   <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/signup">Signup</a>
                 </div>
-              </div> {/* end of container */}
-            </header> {/* end of header */}
-          </SwiperSlide>
-        </Swiper>
+              </div>
+            </header>
+          </SwiperSlide> */}
+        </div>
         {/* end of header */}
         {/* Introduction */}
         <div className="pt-4 pb-14 text-center">
           <div className="container px-4 sm:px-8 xl:px-4">
-            <p className="mb-4 text-gray-800 text-3xl leading-10 lg:max-w-5xl lg:mx-auto"> PeakBooks is an online Accounting system designed for small businesses that makes book keeping easy, and can be managed by anyone. This simple to use Accounting system is helping thousands of small business owners in Nigeria and the region transform the way they manage their businesses.</p>
+            <p className="mb-4 text-gray-800 text-3xl leading-10 lg:max-w-5xl lg:mx-auto"> Why PeakBooks is good for your business?</p>
           </div> {/* end of container */}
         </div>
         {/* end of introduction */}
@@ -173,8 +175,8 @@ function App() {
                 <img src={icon_1} alt="alternative" />
               </div>
               <div className="card-body">
-                <h5 className="card-title">Make Invoicing Effortles</h5>
-                <p className="mb-4">PeakBooks takes away the pain of manual invoicing. Create and send invoices online as well as set up reminders to track your receivables. Customize your invoices, as you want them to appear.</p>
+                <h5 className="card-title">Effortless Invoicing.</h5>
+                <p className="mb-4">PeakBooks takes away the pain of manual invoicing. Create and send invoices, receipts, quotations online.</p>
               </div>
             </div>
             {/* end of card */}
@@ -184,8 +186,8 @@ function App() {
                 <img src={icon_2} alt="alternative" />
               </div>
               <div className="card-body">
-                <h5 className="card-title">Track Your Expenses</h5>
-                <p className="mb-4">Track your expenses and and ensure future sustainability of the business.With PeakBooks, you can categorize expenses for easy and send bills to your clients effortlessly.</p>
+                <h5 className="card-title">Track Your Expenses.</h5>
+                <p className="mb-4">Track your expenses and maximize on your profits. You can categorize expenses for easy reporting.</p>
               </div>
             </div>
             {/* end of card */}
@@ -195,8 +197,8 @@ function App() {
                 <img src={icon_3} alt="alternative" />
               </div>
               <div className="card-body">
-                <h5 className="card-title">Insightful Reports In An Instant</h5>
-                <p className="mb-4">PeakBooks saves you long hours of preparing financial reports. With a click, generate P&amp;L, balance sheets, cash flow statements and other business report.</p>
+                <h5 className="card-title">Insightful Reportst.</h5>
+                <p className="mb-4">PeakBooks saves you long hours of manual preparation of financial reports. Get a variety of financial report in a click.</p>
               </div>
             </div>
             {/* end of card */}
@@ -206,18 +208,7 @@ function App() {
                 <img src={icon_4} alt="alternative" />
               </div>
               <div className="card-body">
-                <h5 className="card-title">Manage Inventory</h5>
-                <p className="mb-4">You are able to manage the flow of stock in and out of your business without sweat.</p>
-              </div>
-            </div>
-            {/* end of card */}
-            {/* Card */}
-            <div className="card">
-              <div className="card-image">
-                <img src={icon_5} alt="alternative" />
-              </div>
-              <div className="card-body">
-                <h5 className="card-title">Dependable Support</h5>
+                <h5 className="card-title">Dependable Support.</h5>
                 <p className="mb-4">Reach out to our support team, for the right solution any time. The good thing is, the support is free.</p>
               </div>
             </div>
@@ -225,77 +216,22 @@ function App() {
             {/* Card */}
             <div className="card">
               <div className="card-image">
-                <img src={icon_6} alt="alternative" />
-              </div>
-              <div className="card-body">
-                <h5 className="card-title">Data Security</h5>
-                <p className="mb-4">PeakBooks has employed rigorous safeguards to protect and safeguard your data. With different security access levels and types, we guarantee you best in class security for your books.</p>
-              </div>
-            </div>
-            {/* end of card */}
-            {/* Card */}
-            <div className="card">
-              <div className="card-image">
-                <img src={icon_6} alt="alternative" />
-              </div>
-              <div className="card-body">
-                <h5 className="card-title">Data Backup</h5>
-                <p className="mb-4">PeakBooks keeps and stores your data safely, and you are able to access your data even after your subscription is over, further PeakBooks allows you to export your complete organizational data as a single compressed file.</p>
-              </div>
-            </div>
-            {/* end of card */}
-            {/* Card */}
-            <div className="card">
-              <div className="card-image">
                 <img src={icon_5} alt="alternative" />
               </div>
               <div className="card-body">
-                <h5 className="card-title">Transaction Approval</h5>
-                <p className="mb-4">PeakBooks allows you to set up approval levels on the different user roles before sending them out, this allows you the chance to verify your transactions before you send them out and ensure they are free of errors.</p>
+                <h5 className="card-title">Security of your data.</h5>
+                <p className="mb-4">PeakBooks has employed rigorous safeguards to protect your data.</p>
               </div>
             </div>
             {/* end of card */}
             {/* Card */}
             <div className="card">
               <div className="card-image">
-                <img src={icon_1} alt="alternative" />
+                <img src={icon_6} alt="alternative" />
               </div>
               <div className="card-body">
-                <h5 className="card-title">Painless Setup</h5>
-                <p className="mb-4">Just plug and play. PeakBooks set up is easy and is very easy to use. Just click on sign up below and in under 2 minutes, you should be on the homepage of your favourite Accounting system and managing your business.</p>
-              </div>
-            </div>
-            {/* end of card */}
-            {/* Card */}
-            <div className="card">
-              <div className="card-image">
-                <img src={icon_3} alt="alternative" />
-              </div>
-              <div className="card-body">
-                <h5 className="card-title">Convert Quotations To Invoicings Easily</h5>
-                <p className="mb-4">PeakBooks enables you to send out clear quotations to your customers, and easily turn accepted estimates into professional invoices; and you can also follow up payments with automated reminders and record payments received which will send receipts to your clients.</p>
-              </div>
-            </div>
-            {/* end of card */}
-            {/* Card */}
-            <div className="card">
-              <div className="card-image">
-                <img src={icon_4} alt="alternative" />
-              </div>
-              <div className="card-body">
-                <h5 className="card-title">Easy &amp; Convenient Payments</h5>
-                <p className="mb-4">Integrate PeakBooks with m-pesa payments and send out automated receipts from this integration. With additional integration, you are also able to send automated text notifications to your clients when payments are received on m-pesa pay bill or till numbers.</p>
-              </div>
-            </div>
-            {/* end of card */}
-            {/* Card */}
-            <div className="card">
-              <div className="card-image">
-                <img src={icon_2} alt="alternative" />
-              </div>
-              <div className="card-body">
-                <h5 className="card-title">PeakBooks Is Very Affordable</h5>
-                <p className="mb-4">We understand times are hard and we got your back. We have made PeakBooks affordable with you in mind, take advantage of the superior system features at very affordable price.</p>
+                <h5 className="card-title">Track your income.</h5>
+                <p className="mb-4">It is now easier to track your receivables and send reminders for overdue invoices, and be paid faster.</p>
               </div>
             </div>
             {/* end of card */}
@@ -303,30 +239,28 @@ function App() {
         </div> {/* end of cards-1 */}
         {/* end of features */}
         {/* Details 1 */}
-        <div id="details" className="pt-12 pb-16 lg:pt-16">
+        {/*<div id="details" className="pt-12 pb-16 lg:pt-16">
           <div className="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
             <div className="lg:col-span-5">
               <div className="mb-16 lg:mb-0 xl:mt-16">
                 <h2 className="mb-6">Results driven accounting software</h2>
                 <p className="mb-4">Thousands of African businesses have already started getting results in their accounting tasks, by using PeakBooks software.</p>
               </div>
-            </div> {/* end of col */}
+            </div>
             <div className="lg:col-span-7">
               <div className="xl:ml-14">
                 <img className="inline" src={result} alt="" />
               </div>
-            </div> {/* end of col */}
-          </div> {/* end of container */}
+            </div>
+          </div>
         </div>
-        {/* end of details 1 */}
-        {/* Details 2 */}
         <div className="py-24">
           <div className="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
             <div className="lg:col-span-7">
               <div className="mb-12 lg:mb-0 xl:mr-14">
                 <img className="inline" src={insight} alt="" />
               </div>
-            </div> {/* end of col */}
+            </div>
             <div className="lg:col-span-5">
               <div className="xl:mt-12">
                 <h2 className="mb-6">Gather accurate insight about your business accounting.</h2>
@@ -335,17 +269,12 @@ function App() {
                     <div>PeakBooks platform has features that will help you understand more aboutr your business accounting.</div>
                   </li>
                 </ul>
-                {/*<a class="btn-solid-reg popup-with-move-anim mr-1.5" href="#details-lightbox">Lightbox</a>
-                        <a class="btn-outline-reg" href="article.html">Details</a>*/}
               </div>
-            </div> {/* end of col */}
-          </div> {/* end of container */}
+            </div>
+          </div>
         </div>
-        {/* end of details 2 */}
-        {/* Details Lightbox */}
-        {/* Lightbox */}
-        {/*
-        <div id="details-lightbox" class="lightbox-basic zoom-anim-dialog mfp-hide">
+
+        {<div id="details-lightbox" class="lightbox-basic zoom-anim-dialog mfp-hide">
             <div class="lg:grid lg:grid-cols-12 lg:gap-x-8">
                 <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
                 <div class="lg:col-span-8">
@@ -385,10 +314,7 @@ function App() {
                     <button class="btn-outline-reg mfp-close as-button" type="button">Back</button>
                 </div>
             </div> 
-        </div> */}{/* end of lightbox-basic */}
-        {/* end of lightbox */}
-        {/* end of details lightbox */}
-        {/* Details 3 */}
+        </div> }
         <div className="pt-16 pb-12">
           <div className="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
             <div className="lg:col-span-5">
@@ -397,19 +323,16 @@ function App() {
                 <p className="mb-4">PeakBooks platform has a smooth learning curve and it is relatively easy to start being used, for all your
                   businesses accounting related tasks.</p>
               </div>
-            </div> {/* end of col */}
+            </div>
             <div className="lg:col-span-7">
               <div className="ml-14">
                 <img className="inline" src={dashboard} alt="" />
               </div>
-            </div> {/* end of col */}
-          </div> {/* end of container */}
+            </div>
+          </div> 
         </div>
-        {/* end of details 3 */}
-        {/* Statistics */}
         <div className="counter">
           <div className="container px-4 sm:px-8">
-            {/* Counter */}
             <div id="counter">
               <div className="cell">
                 <div className="counter-value number-count" data-count={1000}>1</div>
@@ -432,19 +355,16 @@ function App() {
                 <p className="counter-info">Inventories Created</p>
               </div>
             </div>
-            {/* end of counter */}
-          </div> {/* end of container */}
-        </div> {/* end of counter */}
-        {/* end of statistics */}
+          </div>
+        </div>  end of counter */}
+
         {/* Testimonials */}
-        <div className="py-32 bg-gray">
+        {/* <div className="py-32 bg-gray">
           <div className="container px-4 sm:px-8">
             <h2 className="mb-12 text-center lg:max-w-xl lg:mx-auto">What do users think about Pavo</h2>
-            {/* Card Slider */}
             <div className="reduce-con">
               <div className="">
                 <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-                  {/* Slide */}
                   <SwiperSlide>
                     <div className="card">
                       <div className="center-image">
@@ -456,9 +376,7 @@ function App() {
                         <p className="testimonial-author">Eric Ndungu</p>
                       </div>
                     </div>
-                  </SwiperSlide> {/* end of swiper-slide */}
-                  {/* end of slide */}
-                  {/* Slide */}
+                  </SwiperSlide>
                   <SwiperSlide>
                     <div className="card">
                       <img className="card-image" src alt="" />
@@ -467,9 +385,7 @@ function App() {
                         <p className="testimonial-author">Coach Ben</p>
                       </div>
                     </div>
-                  </SwiperSlide> {/* end of swiper-slide */}
-                  {/* end of slide */}
-                  {/* Slide */}
+                  </SwiperSlide>
                   <SwiperSlide>
                     <div className="card">
                       <img className="card-image" src alt="" />
@@ -478,9 +394,7 @@ function App() {
                         <p className="testimonial-author">Nixon Yebei</p>
                       </div>
                     </div>
-                  </SwiperSlide> {/* end of swiper-slide */}
-                  {/* end of slide */}
-                  {/* Slide */}
+                  </SwiperSlide>
                   <SwiperSlide>
                     <div className="card">
                       <img className="card-image" src alt="" />
@@ -489,9 +403,7 @@ function App() {
                         <p className="testimonial-author">Maswai Kelvin</p>
                       </div>
                     </div>
-                  </SwiperSlide> {/* end of swiper-slide */}
-                  {/* end of slide */}
-                  {/* Slide */}
+                  </SwiperSlide> 
                   <SwiperSlide>
                     <div className="card">
                       <img className="card-image" src alt="" />
@@ -500,17 +412,12 @@ function App() {
                         <p className="testimonial-author">Captain Kiprop Linus</p>
                       </div>
                     </div>
-                  </SwiperSlide> {/* end of swiper-slide */}
-                  {/* end of slide */}
-                  {/* end of swiper-slide */}
-                </Swiper> {/* end of swiper-wrapper */}
-                {/* Add Arrows */}
-                {/* end of add arrows */}
-              </div> {/* end of swiper-container */}
-            </div> {/* end of slider-container */}
-            {/* end of card slider */}
-          </div> {/* end of container */}
-        </div> {/* end of slider-1 */}
+                  </SwiperSlide>
+                </Swiper>
+              </div>
+            </div>
+          </div>
+        </div> */}
         {/* end of testimonials */}
         {/* Pricing */}
         <div id="pricing" className="cards-2">
@@ -521,9 +428,9 @@ function App() {
             {/* Card*/}
             <div className="card">
               <div className="card-body">
-                <div className="card-title">STANDARD</div>
-                <div className="price"><span className="currency">₦</span><span className="value">36,000</span></div>
-                <div className="frequency">annually</div>
+                <div className="card-title">Basic Plan</div>
+                <div className="price"><span className="currency">₦</span><span className="value">1,000</span></div>
+                <div className="frequency">monthly</div>
                 <p>This basic package covers the marketing needs of small startups</p>
                 <ul className="list mb-7 space-y-2 text-left">
                   <li className="flex">
@@ -556,27 +463,11 @@ function App() {
                   </li>
                   <li className="flex">
                     <i className="fas fa-chevron-right" />
-                    <div>Sales Reports</div>
+                    <div>Finanacial Reports</div>
                   </li>
                 </ul>
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
                 <div className="button-wrapper">
-                  <a className="btn-solid-reg page-scroll" href>Signup</a>
+                  <a className="btn-solid-reg page-scroll" href='https://www.peakbooks.biz'>Signup</a>
                 </div>
               </div>
             </div> {/* end of card */}
@@ -584,45 +475,21 @@ function App() {
             {/* Card*/}
             <div className="card">
               <div className="card-body">
-                <div className="card-title">ADVANCED</div>
+                <div className="card-title">Standard Plan</div>
                 <div className="price"><span className="currency">₦</span><span className="value">52,800</span></div>
                 <div className="frequency">annually</div>
                 <p>This is a more advanced package suited for medium companies</p>
                 <ul className="list mb-7 space-y-2 text-left">
+                <li className="flex">
+                    <i className="fas fa-chevron-right" />
+                    <div>Basic Plan+</div>
+                  </li>
                   <li className="flex">
                     <i className="fas fa-chevron-right" />
                     <div>2 Admins + 3 Accountants</div>
                   </li>
                   <li className="flex">
                     <i className="fas fa-chevron-right" />
-                    <div>Unlimited Invoices</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Receipts</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Quotations</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Recurring Invoices</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Recurring Expenses</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Payment Reminders</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Financial Reports</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
                     <div>Bank Reconciliation</div>
                   </li>
                   <li className="flex">
@@ -631,7 +498,7 @@ function App() {
                   </li>
                   <li className="flex">
                     <i className="fas fa-chevron-right" />
-                    <div>Document Scans</div>
+                    <div>Document Upload</div>
                   </li>
                   <li className="flex">
                     <i className="fas fa-chevron-right" />
@@ -646,16 +513,8 @@ function App() {
                     <div>Sales Approval</div>
                   </li>
                 </ul>
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
                 <div className="button-wrapper">
-                  <a className="btn-solid-reg page-scroll" href>SignUp</a>
+                  <a className="btn-solid-reg page-scroll" href='https://www.peakbooks.biz'>SignUp</a>
                 </div>
               </div>
             </div> {/* end of card */}
@@ -663,66 +522,18 @@ function App() {
             {/* Card*/}
             <div className="card">
               <div className="card-body">
-                <div className="card-title">Enterprise</div>
-                <div className="price"><span className="currency">₦</span><span className="value">70,300</span></div>
-                <div className="frequency">annually</div>
+                <div className="card-title">Premium Plan</div>
+                <div className="price"><span className="currency">₦</span><span className="value">2,000</span></div>
+                <div className="frequency">monthly</div>
                 <p>This is a comprehensive package designed for big organizations</p>
                 <ul className="list mb-7 text-left space-y-2">
-                  <li className="flex">
+                <li className="flex">
                     <i className="fas fa-chevron-right" />
-                    <div>3 Admins + 6 Accountants</div>
+                    <div>Standard Plan+</div>
                   </li>
                   <li className="flex">
                     <i className="fas fa-chevron-right" />
-                    <div>Unlimited Invoices</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Receipts</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Quotations</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Recurring Invoices</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Recurring Expenses</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Payment Reminders</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Financial Reports</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Bank Reconciliation</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Bills</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Documents scan</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Multi-Currency</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Sales Orders</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Sales Approval</div>
+                    <div>3 Admins + 4 Accountants</div>
                   </li>
                   <li className="flex">
                     <i className="fas fa-chevron-right" />
@@ -730,11 +541,11 @@ function App() {
                   </li>
                   <li className="flex">
                     <i className="fas fa-chevron-right" />
-                    <div>Purchase Approval</div>
+                    <div>Payroll</div>
                   </li>
                   <li className="flex">
                     <i className="fas fa-chevron-right" />
-                    <div>Budgeting</div>
+                    <div>Business Goals</div>
                   </li>
                   <li className="flex">
                     <i className="fas fa-chevron-right" />
@@ -765,17 +576,43 @@ function App() {
               <img src={accounting_2} alt="alternative" />
             </div>
             <div className="lg:mt-24 xl:mt-44 xl:ml-12">
-              <p className="mb-9 text-gray-800 text-3xl leading-10">Business accounting doesn’t get much better than PeakBooks. Signup Today</p>
+              <p className="mb-9 text-gray-800 text-3xl leading-10">Sign up today for PeakBooks and enjoy hassle free Accounting on Africa’s number 1 accounting software and get up to 30 days free trial of a great accounting software.</p>
               <a className="btn-solid-lg" href="https://www.peakbooks.biz/login">Login</a>
               <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/signup">Signup</a>
             </div>
           </div> {/* end of container */}
         </div> {/* end of basic-5 */}
         {/* end of conclusion */}
+        <div className="counter">
+          <div className="container px-4 sm:px-8">
+            <div id="counter">
+              <div className="cell">
+                <div className="counter-value number-count" data-count={1000}>1</div>
+                <p className="counter-info"> Happy Users</p>
+              </div>
+              <div className="cell">
+                <div className="counter-value number-count" data-count={185}>1</div>
+                <p className="counter-info">Issues Solved</p>
+              </div>
+              <div className="cell">
+                <div className="counter-value number-count" data-count={9999}>1</div>
+                <p className="counter-info">Reports Generated</p>
+              </div>
+              <div className="cell">
+                <div className="counter-value number-count" data-count={7000}>1</div>
+                <p className="counter-info">Invoices Generated</p>
+              </div>
+              <div className="cell">
+                <div className="counter-value number-count" data-count={3000}>1</div>
+                <p className="counter-info">Inventories Created</p>
+              </div>
+            </div>
+          </div>
+        </div>
         {/* Footer */}
         <div className="footer">
           <div className="container px-4 sm:px-8">
-            <h4 className="mb-8 lg:max-w-3xl lg:mx-auto">PeakBooks is the number one accounting platform for businesses. You can reach us at<br /> Email:<a className="text-indigo-600 hover:text-gray-500" href="mailto:peakbooks@peakbooks.biz">peakbooks@peakbooks.biz</a><br /> &amp; via Cell-Phone:09037486624</h4>
+            <h4 className="mb-8 lg:max-w-3xl lg:mx-auto">Need a custom plan, tell us your specifications and we will build it for you. You can reach us at<br /> Email:<a className="text-indigo-600 hover:text-gray-500" href="mailto:peakbooks@peakbooks.biz">peakbooks@peakbooks.biz</a><br /> &amp; via Cell-Phone:+254 736 105920</h4>
             <div className="social-container">
               <span className="fa-stack">
                 <a href="#your-link">
