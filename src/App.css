@@ -810,6 +810,7 @@ input[type="checkbox"] {
     position: relative;
     padding-top: 6rem;
     padding-bottom: 10rem;
+    margin-bottom: -2rem;
     background: linear-gradient(#032280,#032280), url("./images/pricing-background.jpg") center center no-repeat;
     background-size: cover;
     text-align: center;
@@ -904,8 +905,8 @@ input[type="checkbox"] {
 /*     Conclusion     */
 /**********************/
 .basic-5 {
-    padding-top: 4.5rem;
-    padding-bottom: 7.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 4.5rem;
     background: url("./images/conclusion-background.jpg") center center no-repeat;
     background-size: cover;
     text-align: center;
@@ -1288,4 +1289,13 @@ a:hover.back-to-top {
 .reduce-space{
     margin-top: -5px;
     padding-top: 15px;
+}
+
+.white-color{
+    color: white;
+}
+
+.pad-top{
+    margin-top: 30px;
+    margin-bottom: -30px;
 }

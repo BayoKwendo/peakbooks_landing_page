@@ -108,8 +108,8 @@ function App() {
             <header id="header" className="header py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32">
               <div className="container px-4 sm:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8 text-center">
                 <div className="mb-16 lg:mt-32 xl:mt-40 xl:mr-320 reduce-space">
-                  <h2 className="h2-large mb-5">Africa’s number 1 Accounting software for SMEs.</h2>
-                  <p className="p-large mb-8">Why do manual accounting if you can automate?</p>
+                  <h1 className="h2-large mb-5">Africa’s <br/>Number 1 <br/>Accounting software <br/>for SMEs.</h1>
+                  <p className="p-large mb-8"></p>
                   <a className="btn-solid-lg" href="https://www.peakbooks.biz/login">Login</a>
                   <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/signup">Signup</a>
                 </div>
@@ -119,6 +119,9 @@ function App() {
                   </video>
                 </div>
               </div> {/* end of container */}
+              <div class="text-center pad-top">
+                <h2>Why do manual accounting if you can automate?</h2>
+              </div>
             </header> {/* end of header */}
           </div>
           {/*<SwiperSlide>
@@ -160,14 +163,10 @@ function App() {
         </div>
         {/* end of header */}
         {/* Introduction */}
-        <div className="pt-4 pb-14 text-center">
-          <div className="container px-4 sm:px-8 xl:px-4">
-            <p className="mb-4 text-gray-800 text-3xl leading-10 lg:max-w-5xl lg:mx-auto"> Why PeakBooks is good for your business?</p>
-          </div> {/* end of container */}
-        </div>
         {/* end of introduction */}
         {/* Features */}
         <div id="features" className="cards-1">
+          <p className="mb-4 text-gray-800 text-3xl leading-10 lg:max-w-5xl lg:mx-auto white-color"> Why PeakBooks is good for your business?</p>
           <div className="container px-4 sm:px-8 xl:px-4">
             {/* Card */}
             <div className="card">
@@ -221,6 +220,7 @@ function App() {
               <div className="card-body">
                 <h5 className="card-title">Security of your data.</h5>
                 <p className="mb-4">PeakBooks has employed rigorous safeguards to protect your data.</p>
+                <br></br>
               </div>
             </div>
             {/* end of card */}
@@ -359,13 +359,12 @@ function App() {
         </div>  end of counter */}
 
         {/* Testimonials */}
-        {/* <div className="py-32 bg-gray">
+         <div className="py-32 bg-gray">
           <div className="container px-4 sm:px-8">
             <h2 className="mb-12 text-center lg:max-w-xl lg:mx-auto">What do users think about Pavo</h2>
             <div className="reduce-con">
               <div className="">
-                <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-                  <SwiperSlide>
+                {/*<Swiper navigation={true} modules={[Navigation]} className="mySwiper">*/}
                     <div className="card">
                       <div className="center-image">
                         <img className="card-image" src alt="" />
@@ -376,8 +375,7 @@ function App() {
                         <p className="testimonial-author">Eric Ndungu</p>
                       </div>
                     </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
+                  {/*<SwiperSlide>
                     <div className="card">
                       <img className="card-image" src alt="" />
                       <div className="card-body">
@@ -413,11 +411,11 @@ function App() {
                       </div>
                     </div>
                   </SwiperSlide>
-                </Swiper>
+                  </Swiper>*/}
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
         {/* end of testimonials */}
         {/* Pricing */}
         <div id="pricing" className="cards-2">
@@ -467,7 +465,7 @@ function App() {
                   </li>
                 </ul>
                 <div className="button-wrapper">
-                  <a className="btn-solid-reg page-scroll" href='https://www.peakbooks.biz'>Signup</a>
+                  <a className="btn-solid-reg page-scroll" href='https://www.peakbooks.biz'>Signup for a free trail</a>
                 </div>
               </div>
             </div> {/* end of card */}
@@ -476,13 +474,13 @@ function App() {
             <div className="card">
               <div className="card-body">
                 <div className="card-title">Standard Plan</div>
-                <div className="price"><span className="currency">₦</span><span className="value">1500</span></div>
-                <div className="frequency">annually</div>
+                <div className="price"><span className="currency">₦</span><span className="value">1,500</span></div>
+                <div className="frequency">monthly</div>
                 <p>This is a more advanced package suited for medium companies</p>
                 <ul className="list mb-7 space-y-2 text-left">
                 <li className="flex">
                     <i className="fas fa-chevron-right" />
-                    <div>Basic Plan+</div>
+                    <div><b>Basic Plan+</b></div>
                   </li>
                   <li className="flex">
                     <i className="fas fa-chevron-right" />
@@ -514,7 +512,7 @@ function App() {
                   </li>
                 </ul>
                 <div className="button-wrapper">
-                  <a className="btn-solid-reg page-scroll" href='https://www.peakbooks.biz'>SignUp</a>
+                  <a className="btn-solid-reg page-scroll" href='https://www.peakbooks.biz'>Signup for a free trail</a>
                 </div>
               </div>
             </div> {/* end of card */}
@@ -529,7 +527,7 @@ function App() {
                 <ul className="list mb-7 text-left space-y-2">
                 <li className="flex">
                     <i className="fas fa-chevron-right" />
-                    <div>Standard Plan+</div>
+                    <div><b>Standard Plan+</b></div>
                   </li>
                   <li className="flex">
                     <i className="fas fa-chevron-right" />
@@ -561,7 +559,7 @@ function App() {
                   </li>
                 </ul>
                 <div className="button-wrapper">
-                  <a className="btn-solid-reg page-scroll" href>SignUp</a>
+                  <a className="btn-solid-reg page-scroll" href>Signup for a free trail</a>
                 </div>
               </div>
             </div> {/* end of card */}
@@ -578,7 +576,7 @@ function App() {
             <div className="lg:mt-24 xl:mt-44 xl:ml-12">
               <p className="mb-9 text-gray-800 text-3xl leading-10">Sign up today for PeakBooks and enjoy hassle free Accounting on Africa’s number 1 accounting software and get up to 30 days free trial of a great accounting software.</p>
               <a className="btn-solid-lg" href="https://www.peakbooks.biz/login">Login</a>
-              <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/signup">Signup</a>
+              <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/signup">Signup for a free trail</a>
             </div>
           </div> {/* end of container */}
         </div> {/* end of basic-5 */}
