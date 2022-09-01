@@ -93,7 +93,7 @@ function App() {
                 <a className="no-underline" href="#your-link">
                   <i className="fab fa-apple text-indigo-600 hover:text-pink-500 text-xl transition-all duration-200 mr-1.5" />
                 </a>
-                <a className="no-underline" href="#your-link">
+                <a className="no-underline" href="https://play.google.com/store/apps/details?id=com.peakbooks">
                   <i className="fab fa-android text-indigo-600 hover:text-pink-500 text-xl transition-all duration-200" />
                 </a>
               </span>
