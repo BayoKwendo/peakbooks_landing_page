@@ -1299,3 +1299,8 @@ a:hover.back-to-top {
     margin-top: 30px;
     margin-bottom: -30px;
 }
+
+.increase-size{
+    width: 205px;
+    height:70px;
+}

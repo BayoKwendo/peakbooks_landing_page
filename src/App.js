@@ -56,7 +56,7 @@ function App() {
             {/* <a class="text-gray-800 font-semibold text-3xl leading-4 no-underline page-scroll" href="index.html">Pavo</a> */}
             {/* Image Logo */}
             <a className="inline-block mr-4 py-0.5 text-xl whitespace-nowrap hover:no-underline focus:no-underline" href="index.html">
-              <img src="https://www.peakbooks.biz/static/media/logo.63883183.png" alt="Peakbooks logo" className="h-8" />
+              <img src="https://www.peakbooks.biz/static/media/logo.63883183.png" alt="Peakbooks logo" className="h-8 increase-size"/>
             </a>
             <button className="background-transparent rounded text-xl leading-none hover:no-underline focus:no-underline lg:hidden lg:text-gray-400" type="button" data-toggle="offcanvas">
               <span className="navbar-toggler-icon inline-block w-8 h-8 align-middle" />
@@ -70,10 +70,10 @@ function App() {
                   <a className="nav-link page-scroll" href="#features">Features</a>
                 </li>
                 <li>
-                  <a className="nav-link page-scroll" href="#details">Details</a>
+                  <a className="nav-link page-scroll" href="#pricing">Pricing</a>
                 </li>
                 <li>
-                  <a className="nav-link page-scroll" href="#pricing">Pricing</a>
+                  <a className="nav-link page-scroll" href="https://www.peakbooks.biz/signup">Login</a>
                 </li>
                 {/*<li class="dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Drop</a>
@@ -86,7 +86,7 @@ function App() {
                             </div>
                         </li>*/}
                 <li>
-                  <a className="nav-link page-scroll" href>Download</a>
+                  <a className="nav-link page-scroll" href="https://www.peakbooks.biz/signup">SignUp</a>
                 </li>
               </ul>
               <span className="block lg:ml-3.5">
@@ -111,7 +111,7 @@ function App() {
                   <h1 className="h2-large mb-5">Africa’s <br/>Number 1 <br/>Accounting software <br/>for SMEs.</h1>
                   <p className="p-large mb-8"></p>
                   <a className="btn-solid-lg" href="https://www.peakbooks.biz/login">Login</a>
-                  <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/signup">Signup</a>
+                  <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/signup">Sign up for a free trail</a>
                 </div>
                 <div className="xl:text-right">
                   <video width="750" height="500" controls >
@@ -361,7 +361,7 @@ function App() {
         {/* Testimonials */}
          <div className="py-32 bg-gray">
           <div className="container px-4 sm:px-8">
-            <h2 className="mb-12 text-center lg:max-w-xl lg:mx-auto">What do users think about Pavo</h2>
+            <h2 className="mb-12 text-center lg:max-w-xl lg:mx-auto">What do users think about Peakbooks</h2>
             <div className="reduce-con">
               <div className="">
                 {/*<Swiper navigation={true} modules={[Navigation]} className="mySwiper">*/}
@@ -421,13 +421,13 @@ function App() {
         <div id="pricing" className="cards-2">
           <div className="absolute bottom-0 h-40 w-full bg-white" />
           <div className="container px-4 pb-px sm:px-8">
-            <h2 className="mb-2.5 text-white lg:max-w-xl lg:mx-auto">Pricing options for all budgets</h2>
-            <p className="mb-16 text-white lg:max-w-3xl lg:mx-auto"> Our pricing plans are setup in such a way that any user can start enjoying Pavo without worrying so much about costs. They are flexible and work for any type of industry </p>
+            <h2 className="mb-2.5 text-white lg:max-w-xl lg:mx-auto">Pricing</h2>
+            <p className="mb-16 text-white lg:max-w-3xl lg:mx-auto"> </p>
             {/* Card*/}
             <div className="card">
               <div className="card-body">
                 <div className="card-title">Basic Plan</div>
-                <div className="price"><span className="currency">₦</span><span className="value">1,000</span></div>
+                <div className="price"><span className="currency">₦</span><span className="value">3,500</span></div>
                 <div className="frequency">monthly</div>
                 <p>This basic package covers the marketing needs of small startups</p>
                 <ul className="list mb-7 space-y-2 text-left">
@@ -474,7 +474,7 @@ function App() {
             <div className="card">
               <div className="card-body">
                 <div className="card-title">Standard Plan</div>
-                <div className="price"><span className="currency">₦</span><span className="value">1,500</span></div>
+                <div className="price"><span className="currency">₦</span><span className="value">5,500</span></div>
                 <div className="frequency">monthly</div>
                 <p>This is a more advanced package suited for medium companies</p>
                 <ul className="list mb-7 space-y-2 text-left">
@@ -521,7 +521,7 @@ function App() {
             <div className="card">
               <div className="card-body">
                 <div className="card-title">Premium Plan</div>
-                <div className="price"><span className="currency">₦</span><span className="value">2,000</span></div>
+                <div className="price"><span className="currency">₦</span><span className="value">7,500</span></div>
                 <div className="frequency">monthly</div>
                 <p>This is a comprehensive package designed for big organizations</p>
                 <ul className="list mb-7 text-left space-y-2">
