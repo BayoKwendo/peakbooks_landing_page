@@ -73,7 +73,7 @@ function App() {
                   <a className="nav-link page-scroll" href="#pricing">Pricing</a>
                 </li>
                 <li>
-                  <a className="nav-link page-scroll" href="https://www.peakbooks.biz/signup">Login</a>
+                  <a className="nav-link page-scroll" href="https://www.peakbooks.biz/login">Login</a>
                 </li>
                 {/*<li class="dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Drop</a>
@@ -465,7 +465,7 @@ function App() {
                   </li>
                 </ul>
                 <div className="button-wrapper">
-                  <a className="btn-solid-reg page-scroll" href='https://www.peakbooks.biz'>Signup for a free trail</a>
+                  <a className="btn-solid-reg page-scroll" href='https://www.peakbooks.biz/signup'>Signup for a free trail</a>
                 </div>
               </div>
             </div> {/* end of card */}
@@ -512,7 +512,7 @@ function App() {
                   </li>
                 </ul>
                 <div className="button-wrapper">
-                  <a className="btn-solid-reg page-scroll" href='https://www.peakbooks.biz'>Signup for a free trail</a>
+                  <a className="btn-solid-reg page-scroll" href='https://www.peakbooks.biz/signup'>Signup for a free trail</a>
                 </div>
               </div>
             </div> {/* end of card */}
@@ -559,7 +559,7 @@ function App() {
                   </li>
                 </ul>
                 <div className="button-wrapper">
-                  <a className="btn-solid-reg page-scroll" href>Signup for a free trail</a>
+                  <a className="btn-solid-reg page-scroll" href="https://www.peakbooks.biz/signup">Signup for a free trail</a>
                 </div>
               </div>
             </div> {/* end of card */}
