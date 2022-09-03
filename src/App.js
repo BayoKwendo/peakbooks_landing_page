@@ -380,8 +380,8 @@ function App() {
                       </div>
                       <div className="card-body text-center">
                         <p className="italic mb-3">
-                          PeakBooks is one of the best accounting systems in Kenya, they offer a wide range of products in just minutes. If you looking for reliable accounting services just try them.</p>
-                        <p className="testimonial-author">Eric Ndungu</p>
+                          PeakBooks is helping us digitize our accounting.</p>
+                        <p className="testimonial-author">Kelvin</p>
                       </div>
                     </div>
                   </SwiperSlide>
@@ -392,8 +392,8 @@ function App() {
                       </div>
                       <div className="card-body text-center">
                         <p className="italic mb-3">
-                          PeakBooks is one of the best accounting systems in Kenya, they offer a wide range of products in just minutes. If you looking for reliable accounting services just try them.</p>
-                        <p className="testimonial-author">Erici Ndungu</p>
+                          Since we started using PeakBooks for our farm accounts, we have seen improvement in efficiency.</p>
+                        <p className="testimonial-author">Joan</p>
                       </div>
                     </div>
                   </SwiperSlide>
@@ -404,8 +404,8 @@ function App() {
                       </div>
                       <div className="card-body text-center">
                         <p className="italic mb-3">
-                          PeakBooks is one of the best accounting systems in Kenya, they offer a wide range of products in just minutes. If you looking for reliable accounting services just try them.</p>
-                        <p className="testimonial-author">Erica Ndungu</p>
+                          PeakBooks is the real deal.</p>
+                        <p className="testimonial-author">John</p>
                       </div>
                     </div>
                   </SwiperSlide>
@@ -416,8 +416,44 @@ function App() {
                       </div>
                       <div className="card-body text-center">
                         <p className="italic mb-3">
-                          PeakBooks is one of the best accounting systems in Kenya, they offer a wide range of products in just minutes. If you looking for reliable accounting services just try them.</p>
-                        <p className="testimonial-author">Ericb Ndungu</p>
+                          We got a reliable partner with PeakBooks.</p>
+                        <p className="testimonial-author">Mercy</p>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="card">
+                      <div className="center-image">
+                        <img className="card-image" src alt="" />
+                      </div>
+                      <div className="card-body text-center">
+                        <p className="italic mb-3">
+                          Just wondering why we  did not use PeakBooks initially, they have sorted us big time.</p>
+                        <p className="testimonial-author">Brain</p>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="card">
+                      <div className="center-image">
+                        <img className="card-image" src alt="" />
+                      </div>
+                      <div className="card-body text-center">
+                        <p className="italic mb-3">
+                          If you want a reliable accounting software, that is affordable, get PeakBooks.</p>
+                        <p className="testimonial-author">Hillary</p>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="card">
+                      <div className="center-image">
+                        <img className="card-image" src alt="" />
+                      </div>
+                      <div className="card-body text-center">
+                        <p className="italic mb-3">
+                          PeakBooks is helping small businesses like our's be digital in an affordable way.</p>
+                        <p className="testimonial-author">Michelle</p>
                       </div>
                     </div>
                   </SwiperSlide>
