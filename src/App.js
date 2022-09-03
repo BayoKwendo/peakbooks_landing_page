@@ -14,9 +14,9 @@ import video from './images/peakbooks.mp4'
 import './App.css';
 import './swiper.css';
 import {Helmet} from "react-helmet";
-/*import { Navigation, Pagination, Autoplay } from 'swiper';
+import { Navigation, Pagination, Autoplay } from 'swiper';
 
-import { Swiper, SwiperSlide } from 'swiper/react';*/
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -365,6 +365,15 @@ function App() {
             <div className="reduce-con">
               <div className="">
                 {/*<Swiper navigation={true} modules={[Navigation]} className="mySwiper">*/}
+                <Swiper
+                  modules={[Navigation, Pagination, Autoplay]}
+                  navigation
+                  pagination={{ clickable: true }}
+                  autoplay={{ delay: 2500 }}
+                  spaceBetween={50}
+                  slidesPerView={3}
+                >
+                  <SwiperSlide>
                     <div className="card">
                       <div className="center-image">
                         <img className="card-image" src alt="" />
@@ -375,6 +384,45 @@ function App() {
                         <p className="testimonial-author">Eric Ndungu</p>
                       </div>
                     </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="card">
+                      <div className="center-image">
+                        <img className="card-image" src alt="" />
+                      </div>
+                      <div className="card-body text-center">
+                        <p className="italic mb-3">
+                          PeakBooks is one of the best accounting systems in Kenya, they offer a wide range of products in just minutes. If you looking for reliable accounting services just try them.</p>
+                        <p className="testimonial-author">Erici Ndungu</p>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="card">
+                      <div className="center-image">
+                        <img className="card-image" src alt="" />
+                      </div>
+                      <div className="card-body text-center">
+                        <p className="italic mb-3">
+                          PeakBooks is one of the best accounting systems in Kenya, they offer a wide range of products in just minutes. If you looking for reliable accounting services just try them.</p>
+                        <p className="testimonial-author">Erica Ndungu</p>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="card">
+                      <div className="center-image">
+                        <img className="card-image" src alt="" />
+                      </div>
+                      <div className="card-body text-center">
+                        <p className="italic mb-3">
+                          PeakBooks is one of the best accounting systems in Kenya, they offer a wide range of products in just minutes. If you looking for reliable accounting services just try them.</p>
+                        <p className="testimonial-author">Ericb Ndungu</p>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                </Swiper>
+                    
                   {/*<SwiperSlide>
                     <div className="card">
                       <img className="card-image" src alt="" />
