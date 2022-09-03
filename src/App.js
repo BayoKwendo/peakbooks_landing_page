@@ -359,7 +359,7 @@ function App() {
         </div>  end of counter */}
 
         {/* Testimonials */}
-         <div className="py-32 bg-gray">
+         <div className="py-16 bg-gray">
           <div className="container px-4 sm:px-8">
             <h2 className="mb-12 text-center lg:max-w-xl lg:mx-auto">What do users think about Peakbooks</h2>
             <div className="reduce-con">
@@ -419,7 +419,7 @@ function App() {
         {/* end of testimonials */}
         {/* Pricing */}
         <div id="pricing" className="cards-2">
-          <div className="absolute bottom-0 h-40 w-full bg-white" />
+          <div className="absolute bottom-0 h-20 w-full bg-white" />
           <div className="container px-4 pb-px sm:px-8">
             <h2 className="mb-2.5 text-white lg:max-w-xl lg:mx-auto">Pricing</h2>
             <p className="mb-16 text-white lg:max-w-3xl lg:mx-auto"> </p>
