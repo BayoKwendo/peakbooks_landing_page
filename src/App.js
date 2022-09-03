@@ -371,7 +371,7 @@ function App() {
                   pagination={{ clickable: true }}
                   autoplay={{ delay: 2500 }}
                   spaceBetween={50}
-                  slidesPerView={3}
+                  slidesPerView={1}
                 >
                   <SwiperSlide>
                     <div className="card">
