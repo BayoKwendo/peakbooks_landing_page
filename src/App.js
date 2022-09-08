@@ -7,7 +7,7 @@ import icon_6 from './images/features-icon-6.svg'
 /*import result from './images/results.jpeg'
 import insight from './images/insights.jpeg'
 import dashboard from './images/dasboard_.png'*/
-import accounting_2 from './images/accounting_2.jpeg'
+import accounting_2 from './images/accounting_2.jpg'
 import video from './images/peakbooks.mp4'
 
 
