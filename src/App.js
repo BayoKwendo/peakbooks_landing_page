@@ -73,7 +73,7 @@ function App() {
                   <a className="nav-link page-scroll" href="#pricing">Pricing</a>
                 </li>
                 <li>
-                  <a className="nav-link page-scroll" href="https://www.peakbooks.biz/login">Login</a>
+                  <a className="nav-link page-scroll" href="https://www.peakbooks.biz/log_in">Login</a>
                 </li>
                 {/*<li class="dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Drop</a>
@@ -86,7 +86,7 @@ function App() {
                             </div>
                         </li>*/}
                 <li>
-                  <a className="nav-link page-scroll" href="https://www.peakbooks.biz/signup">SignUp</a>
+                  <a className="nav-link page-scroll" href="https://www.peakbooks.biz/register">SignUp</a>
                 </li>
               </ul>
               <span className="block lg:ml-3.5">
@@ -110,8 +110,8 @@ function App() {
                 <div className="mb-16 lg:mt-32 xl:mt-40 xl:mr-320 reduce-space">
                   <h1 className="h2-large mb-5">Africa’s <br/>Number 1 <br/>Accounting software <br/>for SMEs.</h1>
                   <p className="p-large mb-8"></p>
-                  <a className="btn-solid-lg" href="https://www.peakbooks.biz/login">Login</a>
-                  <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/signup">Sign up for a free trail</a>
+                  <a className="btn-solid-lg" href="https://www.peakbooks.biz/log_in">Login</a>
+                  <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/register">Sign up for a free trail</a>
                 </div>
                 <div className="xl:text-right">
                   <video width="750" height="500" controls >
@@ -130,8 +130,8 @@ function App() {
                 <div className="mb-16 lg:mt-32 xl:mt-40 xl:mr-320">
                   <h2 className="h2-large mb-5">The best accounting platform for businesses</h2>
                   <p className="p-large mb-8">Start getting your invoicing, expense tracking, reporting and inventory management done right with PeakBooks.</p>
-                  <a className="btn-solid-lg" href="https://www.peakbooks.biz/login">Login</a>
-                  <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/signup">Signup</a>
+                  <a className="btn-solid-lg" href="https://www.peakbooks.biz/log_in">Login</a>
+                  <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/register">Signup</a>
                 </div>
               </div>
             </header>
@@ -142,8 +142,8 @@ function App() {
                 <div className="mb-16 lg:mt-32 xl:mt-40 xl:mr-320">
                   <h2 className="h2-large mb-5">The best accounting platform for businesses</h2>
                   <p className="p-large mb-8">Start getting your invoicing, expense tracking, reporting and inventory management done right with PeakBooks.</p>
-                  <a className="btn-solid-lg" href="https://www.peakbooks.biz/login">Login</a>
-                  <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/signup">Signup</a>
+                  <a className="btn-solid-lg" href="https://www.peakbooks.biz/log_in">Login</a>
+                  <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/register">Signup</a>
                 </div>
               </div>
             </header> 
@@ -154,8 +154,8 @@ function App() {
                 <div className="mb-16 lg:mt-32 xl:mt-40 xl:mr-320">
                   <h2 className="h2-large mb-5">The best accounting platform for businesses</h2>
                   <p className="p-large mb-8">Start getting your invoicing, expense tracking, reporting and inventory management done right with PeakBooks.</p>
-                  <a className="btn-solid-lg" href="https://www.peakbooks.biz/login">Login</a>
-                  <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/signup">Signup</a>
+                  <a className="btn-solid-lg" href="https://www.peakbooks.biz/log_in">Login</a>
+                  <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/register">Signup</a>
                 </div>
               </div>
             </header>
@@ -549,7 +549,7 @@ function App() {
                   </li>
                 </ul>
                 <div className="button-wrapper">
-                  <a className="btn-solid-reg page-scroll" href='https://www.peakbooks.biz/signup'>Signup for a free trail</a>
+                  <a className="btn-solid-reg page-scroll" href='https://www.peakbooks.biz/register'>Signup for a free trail</a>
                 </div>
               </div>
             </div> {/* end of card */}
@@ -596,7 +596,7 @@ function App() {
                   </li>
                 </ul>
                 <div className="button-wrapper">
-                  <a className="btn-solid-reg page-scroll" href='https://www.peakbooks.biz/signup'>Signup for a free trail</a>
+                  <a className="btn-solid-reg page-scroll" href='https://www.peakbooks.biz/register'>Signup for a free trail</a>
                 </div>
               </div>
             </div> {/* end of card */}
@@ -643,7 +643,7 @@ function App() {
                   </li>
                 </ul>
                 <div className="button-wrapper">
-                  <a className="btn-solid-reg page-scroll" href="https://www.peakbooks.biz/signup">Signup for a free trail</a>
+                  <a className="btn-solid-reg page-scroll" href="https://www.peakbooks.biz/register">Signup for a free trail</a>
                 </div>
               </div>
             </div> {/* end of card */}
@@ -659,8 +659,8 @@ function App() {
             </div>
             <div className="lg:mt-24 xl:mt-44 xl:ml-12">
               <p className="mb-9 text-gray-800 text-3xl leading-10">Sign up today for PeakBooks and enjoy hassle free Accounting on Africa’s number 1 accounting software and get up to 30 days free trial of a great accounting software.</p>
-              <a className="btn-solid-lg" href="https://www.peakbooks.biz/login">Login</a>
-              <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/signup">Signup for a free trail</a>
+              <a className="btn-solid-lg" href="https://www.peakbooks.biz/log_in">Login</a>
+              <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/register">Signup for a free trail</a>
             </div>
           </div> {/* end of container */}
         </div> {/* end of basic-5 */}
