@@ -721,7 +721,7 @@ input[type="checkbox"] {
     margin-bottom: -5rem;
     text-align: center;
 }
-
+ 
 .counter #counter {
     margin-bottom: 0.75rem;
 }
@@ -729,9 +729,9 @@ input[type="checkbox"] {
 .counter #counter .cell {
     display: inline-block;
     width: 120px;
-    margin-right: 1.75rem;
+    margin-right: 30rem;
     margin-bottom: 3.5rem;
-    margin-left: 1.75rem;
+    margin-left: 75rem;
     vertical-align: top;
 }
 
@@ -1223,8 +1223,8 @@ a:hover.back-to-top {
 
     /* Statistics */
     .counter #counter .cell {
-        margin-right: 2.5rem;
-        margin-left: 2.5rem;
+        margin-right: 10rem;
+        margin-left:10rem;
     }
 
     .counter #counter .counter-value {
