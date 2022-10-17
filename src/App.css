@@ -180,7 +180,6 @@ h6 {
     text-decoration: none;
     transition: all 0.2s;
     margin-right: 0.25rem;
-    margin-bottom: 1.25rem;
     margin-left: 0.25rem;
 }
 
@@ -286,7 +285,6 @@ h6 {
 
 .form-group {
     position: relative;
-    margin-bottom: 1.25rem;
 }
 
 .label-control {
@@ -626,7 +624,6 @@ input[type="checkbox"] {
 }
 
 .cards-1 .card {
-    margin-bottom: 3.5rem;
     padding: 3.125rem 1rem 2.125rem 1rem;
     border: none;
     border-radius: 16px;
@@ -634,7 +631,6 @@ input[type="checkbox"] {
 }
 
 .cards-1 .card-image {
-    margin-bottom: 1.5rem;
 }
 
 .cards-1 .card-image img {
@@ -649,7 +645,6 @@ input[type="checkbox"] {
 }
 
 .cards-1 .card-title {
-    margin-bottom: 0.375rem;
 }
 
 /****************************/
@@ -723,7 +718,7 @@ input[type="checkbox"] {
 }
  
 .counter #counter {
-    margin-bottom: 0.75rem;
+    /* margin-bottom: 0.75rem; */
 }
 
 .counter #counter .cell {
@@ -1298,11 +1293,9 @@ a:hover.back-to-top {
 }
 
 .pad-top{
-    margin-top: 30px;
-    margin-bottom: -30px;
 }
 
 .increase-size{
-    width: 205px;
-    height:70px;
+    /* width: 205px; */
+    /* height:70px; */
 }
