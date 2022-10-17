@@ -196,7 +196,7 @@ function App() {
                 <img src={icon_3} alt="alternative" />
               </div>
               <div className="card-body">
-                <h5 className="card-title">Insightful Reportst.</h5>
+                <h5 className="card-title">Insightful Reports.</h5>
                 <p className="mb-4">PeakBooks saves you long hours of manual preparation of financial reports. Get a variety of financial report in a click.</p>
               </div>
             </div>
