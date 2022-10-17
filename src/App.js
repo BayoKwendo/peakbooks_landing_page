@@ -56,7 +56,9 @@ function App() {
             {/* <a class="text-gray-800 font-semibold text-3xl leading-4 no-underline page-scroll" href="index.html">Pavo</a> */}
             {/* Image Logo */}
             <a className="inline-block mr-4 py-0.5 text-xl whitespace-nowrap hover:no-underline focus:no-underline" href="index.html">
-              <img src="https://www.peakbooks.biz/static/media/logo.63883183.png" alt="Peakbooks logo" className="h-8 increase-size"/>
+              
+              <h3 className="h-8 increase-size">PeakBooks</h3>
+              {/* <img src="https://www.peakbooks.biz/static/media/logo.63883183.png" alt="Peakbooks logo" /> */}
             </a>
             <button className="background-transparent rounded text-xl leading-none hover:no-underline focus:no-underline lg:hidden lg:text-gray-400" type="button" data-toggle="offcanvas">
               <span className="navbar-toggler-icon inline-block w-8 h-8 align-middle" />
@@ -105,7 +107,7 @@ function App() {
         <div 
           className="mySwiper">
           <div>
-            <header id="header" className="header py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32">
+            <header id="header" className="header py-28 text-center">
               <div className="container px-4 sm:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8 text-center">
                 <div className="mb-16 lg:mt-32 xl:mt-40 xl:mr-320 reduce-space">
                   <h1 className="h2-large mb-5">Africa’s <br/>Number 1 <br/>Accounting software <br/>for SMEs.</h1>
@@ -513,7 +515,7 @@ function App() {
                 <div className="card-title">Basic Plan</div>
                 <div className="price"><span className="currency">ksh.</span><span className="value">1,000</span></div>
                 <div className="frequency">monthly</div>
-                <p>This basic package covers the marketing needs of small startups</p>
+                {/* <p>This basic package covers the marketing needs of small startups</p> */}
                 <ul className="list mb-7 space-y-2 text-left">
                   <li className="flex">
                     <i className="fas fa-chevron-right" />
@@ -560,7 +562,7 @@ function App() {
                 <div className="card-title">Standard Plan</div>
                 <div className="price"><span className="currency">ksh</span><span className="value">1,500</span></div>
                 <div className="frequency">monthly </div>
-                <p>This is a more advanced package suited for medium companies</p>
+                {/* <p>This is a more advanced package suited for medium companies</p> */}
                 <ul className="list mb-7 space-y-2 text-left">
                 <li className="flex">
                     <i className="fas fa-chevron-right" />
@@ -607,7 +609,7 @@ function App() {
                 <div className="card-title">Premium Plan</div>
                 <div className="price"><span className="currency">ksh</span><span className="value">2,000</span></div>
                 <div className="frequency">monthly</div>
-                <p>This is a comprehensive package designed for big organizations</p>
+                {/* <p>This is a comprehensive package designed for big organizations</p> */}
                 <ul className="list mb-7 text-left space-y-2">
                 <li className="flex">
                     <i className="fas fa-chevron-right" />
