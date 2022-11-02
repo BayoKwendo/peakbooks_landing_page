@@ -513,7 +513,7 @@ function App() {
             <div className="card">
               <div className="card-body">
                 <div className="card-title">Basic Plan</div>
-                <div className="price"><span className="currency">ksh.</span><span className="value">1,000</span></div>
+                <div className="price"><span className="currency">ksh.</span><span className="value">500</span></div>
                 <div className="frequency">monthly</div>
                 {/* <p>This basic package covers the marketing needs of small startups</p> */}
                 <ul className="list mb-7 space-y-2 text-left">
@@ -560,7 +560,7 @@ function App() {
             <div className="card">
               <div className="card-body">
                 <div className="card-title">Standard Plan</div>
-                <div className="price"><span className="currency">ksh</span><span className="value">1,500</span></div>
+                <div className="price"><span className="currency">ksh</span><span className="value">1,000</span></div>
                 <div className="frequency">monthly </div>
                 {/* <p>This is a more advanced package suited for medium companies</p> */}
                 <ul className="list mb-7 space-y-2 text-left">
