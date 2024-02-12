@@ -13,7 +13,7 @@ import video from './images/peakbooks.mp4'
 
 import './App.css';
 import './swiper.css';
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 import { Navigation, Pagination, Autoplay } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -27,57 +27,57 @@ import 'swiper/css/scrollbar';
 function App() {
   return (
     <div>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        {/* SEO Meta Tags */}
-        <meta name="description" content="Peakbooks is the foremost accounting platform for businesses" />
-        <meta name="author" content="Your name" />
-        {/* OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn */}
-        <meta property="og:site_name" content /> {/* website name */}
-        <meta property="og:site" content /> {/* website link */}
-        <meta property="og:title" content /> {/* title shown in the actual shared post */}
-        <meta property="og:description" content /> {/* description shown in the actual shared post */}
-        <meta property="og:image" content /> {/* image link, make sure it's jpg */}
-        <meta property="og:url" content /> {/* where do you want your post to link to */}
-        <meta name="twitter:card" content="summary_large_image" /> {/* to have large image post format in Twitter */}
-        <Helmet>
-          <script src = "./script.js" type = "text/javascript" />
-        </Helmet>
-        {/* Webpage Title */}
-        <title>PeakBooks</title>
-        {/* Styles */}
-        
-        {/* Favicon  */}
-        {/*<link rel="icon" href="images/favicon.png" />*/}
-        {/* Navigation */}
-        <nav className="navbar fixed-top">
-          <div className="container sm:px-4 lg:px-8 flex flex-wrap items-center justify-between lg:flex-nowrap">
-            {/* Text Logo - Use this if you don't have a graphic logo */}
-            {/* <a class="text-gray-800 font-semibold text-3xl leading-4 no-underline page-scroll" href="index.html">Pavo</a> */}
-            {/* Image Logo */}
-            <a className="inline-block mr-4 py-0.5 text-xl whitespace-nowrap hover:no-underline focus:no-underline" href="index.html">
-              
-              <h3 className="h-8 increase-size">PeakBooks</h3>
-              {/* <img src="https://www.peakbooks.biz/static/media/logo.63883183.png" alt="Peakbooks logo" /> */}
-            </a>
-            <button className="background-transparent rounded text-xl leading-none hover:no-underline focus:no-underline lg:hidden lg:text-gray-400" type="button" data-toggle="offcanvas">
-              <span className="navbar-toggler-icon inline-block w-8 h-8 align-middle" />
-            </button>
-            <div className="navbar-collapse offcanvas-collapse lg:flex lg:flex-grow lg:items-center" id="navbarsExampleDefault">
-              <ul className="pl-0 mt-3 mb-2 ml-auto flex flex-col list-none lg:mt-0 lg:mb-0 lg:flex-row">
-                <li>
-                  <a className="nav-link page-scroll active" href="#header">Home <span className="sr-only">(current)</span></a>
-                </li>
-                <li>
-                  <a className="nav-link page-scroll" href="#features">Features</a>
-                </li>
-                <li>
-                  <a className="nav-link page-scroll" href="#pricing">Pricing</a>
-                </li>
-                <li>
-                  <a className="nav-link page-scroll" href="https://www.peakbooks.biz/log_in">Login</a>
-                </li>
-                {/*<li class="dropdown">
+      <meta charSet="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      {/* SEO Meta Tags */}
+      <meta name="description" content="Peakbooks is the foremost accounting platform for businesses" />
+      <meta name="author" content="Your name" />
+      {/* OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn */}
+      <meta property="og:site_name" content /> {/* website name */}
+      <meta property="og:site" content /> {/* website link */}
+      <meta property="og:title" content /> {/* title shown in the actual shared post */}
+      <meta property="og:description" content /> {/* description shown in the actual shared post */}
+      <meta property="og:image" content /> {/* image link, make sure it's jpg */}
+      <meta property="og:url" content /> {/* where do you want your post to link to */}
+      <meta name="twitter:card" content="summary_large_image" /> {/* to have large image post format in Twitter */}
+      <Helmet>
+        <script src="./script.js" type="text/javascript" />
+      </Helmet>
+      {/* Webpage Title */}
+      <title>PeakBooks</title>
+      {/* Styles */}
+
+      {/* Favicon  */}
+      {/*<link rel="icon" href="images/favicon.png" />*/}
+      {/* Navigation */}
+      <nav className="navbar fixed-top">
+        <div className="container sm:px-4 lg:px-8 flex flex-wrap items-center justify-between lg:flex-nowrap">
+          {/* Text Logo - Use this if you don't have a graphic logo */}
+          {/* <a class="text-gray-800 font-semibold text-3xl leading-4 no-underline page-scroll" href="index.html">Pavo</a> */}
+          {/* Image Logo */}
+          <a className="inline-block mr-4 py-0.5 text-xl whitespace-nowrap hover:no-underline focus:no-underline" href="index.html">
+
+            <h3 className="h-8 increase-size">PeakBooks</h3>
+            {/* <img src="https://www.peakbooks.biz/static/media/logo.63883183.png" alt="Peakbooks logo" /> */}
+          </a>
+          <button className="background-transparent rounded text-xl leading-none hover:no-underline focus:no-underline lg:hidden lg:text-gray-400" type="button" data-toggle="offcanvas">
+            <span className="navbar-toggler-icon inline-block w-8 h-8 align-middle" />
+          </button>
+          <div className="navbar-collapse offcanvas-collapse lg:flex lg:flex-grow lg:items-center" id="navbarsExampleDefault">
+            <ul className="pl-0 mt-3 mb-2 ml-auto flex flex-col list-none lg:mt-0 lg:mb-0 lg:flex-row">
+              <li>
+                <a className="nav-link page-scroll active" href="#header">Home <span className="sr-only">(current)</span></a>
+              </li>
+              <li>
+                <a className="nav-link page-scroll" href="#features">Features</a>
+              </li>
+              <li>
+                <a className="nav-link page-scroll" href="#pricing">Pricing</a>
+              </li>
+              <li>
+                <a className="nav-link page-scroll" href="https://www.peakbooks.biz/log_in">Login</a>
+              </li>
+              {/*<li class="dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Drop</a>
                             <div class="dropdown-menu" aria-labelledby="dropdown01">
                                 <a class="dropdown-item page-scroll" href="article.html">Article Details</a>
@@ -87,46 +87,46 @@ function App() {
                                 <a class="dropdown-item page-scroll" href="privacy.html">Privacy Policy</a>
                             </div>
                         </li>*/}
-                <li>
-                  <a className="nav-link page-scroll" href="https://www.peakbooks.biz/register">SignUp</a>
-                </li>
-              </ul>
-              <span className="block lg:ml-3.5">
-                <a className="no-underline" href="#your-link">
-                  <i className="fab fa-apple text-indigo-600 hover:text-pink-500 text-xl transition-all duration-200 mr-1.5" />
-                </a>
-                <a className="no-underline" href="https://play.google.com/store/apps/details?id=com.peakbooks">
-                  <i className="fab fa-android text-indigo-600 hover:text-pink-500 text-xl transition-all duration-200" />
-                </a>
-              </span>
-            </div> {/* end of navbar-collapse */}
-          </div> {/* end of container */}
-        </nav> {/* end of navbar */}
-        {/* end of navigation */}
-        {/* Header */}
-        <div 
-          className="mySwiper">
-          <div>
-            <header id="header" className="header py-28 text-center">
-              <div className="container px-4 sm:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8 text-center">
-                <div className="mb-16 lg:mt-32 xl:mt-40 xl:mr-320 reduce-space">
-                  <h1 className="h2-large mb-5">Africa’s <br/>Number 1 <br/>Accounting software <br/>for SMEs.</h1>
-                  <p className="p-large mb-8"></p>
-                  <a className="btn-solid-lg" href="https://www.peakbooks.biz/log_in">Login</a>
-                  <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/register">Sign up for a free trail</a>
-                </div>
-                <div className="xl:text-right">
-                  <video width="750" height="500" controls >
-                    <source src={video} type="video/mp4"/>
-                  </video>
-                </div>
-              </div> {/* end of container */}
-              <div class="text-center pad-top">
-                <h2>Why do manual accounting if you can automate?</h2>
+              <li>
+                <a className="nav-link page-scroll" href="https://www.peakbooks.biz/register">SignUp</a>
+              </li>
+            </ul>
+            <span className="block lg:ml-3.5">
+              <a className="no-underline" href="#your-link">
+                <i className="fab fa-apple text-indigo-600 hover:text-pink-500 text-xl transition-all duration-200 mr-1.5" />
+              </a>
+              <a className="no-underline" href="https://play.google.com/store/apps/details?id=com.peakbooks">
+                <i className="fab fa-android text-indigo-600 hover:text-pink-500 text-xl transition-all duration-200" />
+              </a>
+            </span>
+          </div> {/* end of navbar-collapse */}
+        </div> {/* end of container */}
+      </nav> {/* end of navbar */}
+      {/* end of navigation */}
+      {/* Header */}
+      <div
+        className="mySwiper">
+        <div>
+          <header id="header" className="header py-28 text-center">
+            <div className="container px-4 sm:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8 text-center">
+              <div className="mb-16 lg:mt-32 xl:mt-40 xl:mr-320 reduce-space">
+                <h1 className="h2-large mb-5">Africa’s <br />Number 1 <br />Accounting software <br />for SMEs.</h1>
+                <p className="p-large mb-8"></p>
+                <a className="btn-solid-lg" href="https://www.peakbooks.biz/log_in">Login</a>
+                <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/register">Sign up for a free trail</a>
               </div>
-            </header> {/* end of header */}
-          </div>
-          {/*<SwiperSlide>
+              <div className="xl:text-right">
+                <video width="750" height="500" controls >
+                  <source src={video} type="video/mp4" />
+                </video>
+              </div>
+            </div> {/* end of container */}
+            <div class="text-center pad-top">
+              <h2>Why do manual accounting if you can automate?</h2>
+            </div>
+          </header> {/* end of header */}
+        </div>
+        {/*<SwiperSlide>
             <header id="header" className="header py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32 frontpage-slider2">
               <div className="container px-4 sm:px-8 lg:grid lg:grid-cols-1 lg:gap-x-8 text-center">
                 <div className="mb-16 lg:mt-32 xl:mt-40 xl:mr-320">
@@ -162,86 +162,86 @@ function App() {
               </div>
             </header>
           </SwiperSlide> */}
-        </div>
-        {/* end of header */}
-        {/* Introduction */}
-        {/* end of introduction */}
-        {/* Features */}
-        <div id="features" className="cards-1">
-          <p className="mb-4 text-gray-800 text-3xl leading-10 lg:max-w-5xl lg:mx-auto white-color"> Why PeakBooks is good for your business?</p>
-          <div className="container px-4 sm:px-8 xl:px-4">
-            {/* Card */}
-            <div className="card">
-              <div className="card-image">
-                <img src={icon_1} alt="alternative" />
-              </div>
-              <div className="card-body">
-                <h5 className="card-title">Effortless Invoicing.</h5>
-                <p className="mb-4">PeakBooks takes away the pain of manual invoicing. Create and send invoices, receipts, quotations online.</p>
-              </div>
+      </div>
+      {/* end of header */}
+      {/* Introduction */}
+      {/* end of introduction */}
+      {/* Features */}
+      <div id="features" className="cards-1">
+        <p className="mb-4 text-gray-800 text-3xl leading-10 lg:max-w-5xl lg:mx-auto white-color"> Why PeakBooks is good for your business?</p>
+        <div className="container px-4 sm:px-8 xl:px-4">
+          {/* Card */}
+          <div className="card">
+            <div className="card-image">
+              <img src={icon_1} alt="alternative" />
             </div>
-            {/* end of card */}
-            {/* Card */}
-            <div className="card">
-              <div className="card-image">
-                <img src={icon_2} alt="alternative" />
-              </div>
-              <div className="card-body">
-                <h5 className="card-title">Track Your Expenses.</h5>
-                <p className="mb-4">Track your expenses and maximize on your profits. You can categorize expenses for easy reporting.</p>
-              </div>
+            <div className="card-body">
+              <h5 className="card-title">Effortless Invoicing.</h5>
+              <p className="mb-4">PeakBooks takes away the pain of manual invoicing. Create and send invoices, receipts, quotations online.</p>
             </div>
-            {/* end of card */}
-            {/* Card */}
-            <div className="card">
-              <div className="card-image">
-                <img src={icon_3} alt="alternative" />
-              </div>
-              <div className="card-body">
-                <h5 className="card-title">Insightful Reports.</h5>
-                <p className="mb-4">PeakBooks saves you long hours of manual preparation of financial reports. Get a variety of financial report in a click.</p>
-              </div>
+          </div>
+          {/* end of card */}
+          {/* Card */}
+          <div className="card">
+            <div className="card-image">
+              <img src={icon_2} alt="alternative" />
             </div>
-            {/* end of card */}
-            {/* Card */}
-            <div className="card">
-              <div className="card-image">
-                <img src={icon_4} alt="alternative" />
-              </div>
-              <div className="card-body">
-                <h5 className="card-title">Dependable Support.</h5>
-                <p className="mb-4">Reach out to our support team, for the right solution any time. The good thing is, the support is free.</p>
-              </div>
+            <div className="card-body">
+              <h5 className="card-title">Track Your Expenses.</h5>
+              <p className="mb-4">Track your expenses and maximize on your profits. You can categorize expenses for easy reporting.</p>
             </div>
-            {/* end of card */}
-            {/* Card */}
-            <div className="card">
-              <div className="card-image">
-                <img src={icon_5} alt="alternative" />
-              </div>
-              <div className="card-body">
-                <h5 className="card-title">Security of your data.</h5>
-                <p className="mb-4">PeakBooks has employed rigorous safeguards to protect your data.</p>
-                <br></br>
-              </div>
+          </div>
+          {/* end of card */}
+          {/* Card */}
+          <div className="card">
+            <div className="card-image">
+              <img src={icon_3} alt="alternative" />
             </div>
-            {/* end of card */}
-            {/* Card */}
-            <div className="card">
-              <div className="card-image">
-                <img src={icon_6} alt="alternative" />
-              </div>
-              <div className="card-body">
-                <h5 className="card-title">Track your income.</h5>
-                <p className="mb-4">It is now easier to track your receivables and send reminders for overdue invoices, and be paid faster.</p>
-              </div>
+            <div className="card-body">
+              <h5 className="card-title">Insightful Reports.</h5>
+              <p className="mb-4">PeakBooks saves you long hours of manual preparation of financial reports. Get a variety of financial report in a click.</p>
             </div>
-            {/* end of card */}
-          </div> {/* end of container */}
-        </div> {/* end of cards-1 */}
-        {/* end of features */}
-        {/* Details 1 */}
-        {/*<div id="details" className="pt-12 pb-16 lg:pt-16">
+          </div>
+          {/* end of card */}
+          {/* Card */}
+          <div className="card">
+            <div className="card-image">
+              <img src={icon_4} alt="alternative" />
+            </div>
+            <div className="card-body">
+              <h5 className="card-title">Dependable Support.</h5>
+              <p className="mb-4">Reach out to our support team, for the right solution any time. The good thing is, the support is free.</p>
+            </div>
+          </div>
+          {/* end of card */}
+          {/* Card */}
+          <div className="card">
+            <div className="card-image">
+              <img src={icon_5} alt="alternative" />
+            </div>
+            <div className="card-body">
+              <h5 className="card-title">Security of your data.</h5>
+              <p className="mb-4">PeakBooks has employed rigorous safeguards to protect your data.</p>
+              <br></br>
+            </div>
+          </div>
+          {/* end of card */}
+          {/* Card */}
+          <div className="card">
+            <div className="card-image">
+              <img src={icon_6} alt="alternative" />
+            </div>
+            <div className="card-body">
+              <h5 className="card-title">Track your income.</h5>
+              <p className="mb-4">It is now easier to track your receivables and send reminders for overdue invoices, and be paid faster.</p>
+            </div>
+          </div>
+          {/* end of card */}
+        </div> {/* end of container */}
+      </div> {/* end of cards-1 */}
+      {/* end of features */}
+      {/* Details 1 */}
+      {/*<div id="details" className="pt-12 pb-16 lg:pt-16">
           <div className="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
             <div className="lg:col-span-5">
               <div className="mb-16 lg:mb-0 xl:mt-16">
@@ -360,108 +360,108 @@ function App() {
           </div>
         </div>  end of counter */}
 
-        {/* Testimonials */}
-         <div className="py-16 bg-gray">
-          <div className="container px-4 sm:px-8">
-            <h2 className="mb-12 text-center lg:max-w-xl lg:mx-auto">What do users think about Peakbooks</h2>
-            <div className="reduce-con">
-              <div className="">
-                {/*<Swiper navigation={true} modules={[Navigation]} className="mySwiper">*/}
-                <Swiper
-                  modules={[Navigation, Pagination, Autoplay]}
-                  navigation
-                  pagination={{ clickable: true }}
-                  autoplay={{ delay: 2500 }}
-                  spaceBetween={50}
-                  slidesPerView={1}
-                >
-                  <SwiperSlide>
-                    <div className="card">
-                      <div className="center-image">
-                        <img className="card-image" src alt="" />
-                      </div>
-                      <div className="card-body text-center">
-                        <p className="italic mb-3">
-                          PeakBooks is helping us digitize our accounting.</p>
-                        <p className="testimonial-author">Kelvin</p>
-                      </div>
+      {/* Testimonials */}
+      <div className="py-16 bg-gray">
+        <div className="container px-4 sm:px-8">
+          <h2 className="mb-12 text-center lg:max-w-xl lg:mx-auto">What do users think about Peakbooks</h2>
+          <div className="reduce-con">
+            <div className="">
+              {/*<Swiper navigation={true} modules={[Navigation]} className="mySwiper">*/}
+              <Swiper
+                modules={[Navigation, Pagination, Autoplay]}
+                navigation
+                pagination={{ clickable: true }}
+                autoplay={{ delay: 2500 }}
+                spaceBetween={50}
+                slidesPerView={1}
+              >
+                <SwiperSlide>
+                  <div className="card">
+                    <div className="center-image">
+                      <img className="card-image" src alt="" />
                     </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="card">
-                      <div className="center-image">
-                        <img className="card-image" src alt="" />
-                      </div>
-                      <div className="card-body text-center">
-                        <p className="italic mb-3">
-                          Since we started using PeakBooks for our farm accounts, we have seen improvement in efficiency.</p>
-                        <p className="testimonial-author">Joan</p>
-                      </div>
+                    <div className="card-body text-center">
+                      <p className="italic mb-3">
+                        PeakBooks is helping us digitize our accounting.</p>
+                      <p className="testimonial-author">Kelvin</p>
                     </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="card">
-                      <div className="center-image">
-                        <img className="card-image" src alt="" />
-                      </div>
-                      <div className="card-body text-center">
-                        <p className="italic mb-3">
-                          PeakBooks is the real deal.</p>
-                        <p className="testimonial-author">John</p>
-                      </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="card">
+                    <div className="center-image">
+                      <img className="card-image" src alt="" />
                     </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="card">
-                      <div className="center-image">
-                        <img className="card-image" src alt="" />
-                      </div>
-                      <div className="card-body text-center">
-                        <p className="italic mb-3">
-                          We got a reliable partner with PeakBooks.</p>
-                        <p className="testimonial-author">Mercy</p>
-                      </div>
+                    <div className="card-body text-center">
+                      <p className="italic mb-3">
+                        Since we started using PeakBooks for our farm accounts, we have seen improvement in efficiency.</p>
+                      <p className="testimonial-author">Joan</p>
                     </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="card">
-                      <div className="center-image">
-                        <img className="card-image" src alt="" />
-                      </div>
-                      <div className="card-body text-center">
-                        <p className="italic mb-3">
-                          Just wondering why we  did not use PeakBooks initially, they have sorted us big time.</p>
-                        <p className="testimonial-author">Brain</p>
-                      </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="card">
+                    <div className="center-image">
+                      <img className="card-image" src alt="" />
                     </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="card">
-                      <div className="center-image">
-                        <img className="card-image" src alt="" />
-                      </div>
-                      <div className="card-body text-center">
-                        <p className="italic mb-3">
-                          If you want a reliable accounting software, that is affordable, get PeakBooks.</p>
-                        <p className="testimonial-author">Hillary</p>
-                      </div>
+                    <div className="card-body text-center">
+                      <p className="italic mb-3">
+                        PeakBooks is the real deal.</p>
+                      <p className="testimonial-author">John</p>
                     </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="card">
-                      <div className="center-image">
-                        <img className="card-image" src alt="" />
-                      </div>
-                      <div className="card-body text-center">
-                        <p className="italic mb-3">
-                          PeakBooks is helping small businesses like our's be digital in an affordable way.</p>
-                        <p className="testimonial-author">Michelle</p>
-                      </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="card">
+                    <div className="center-image">
+                      <img className="card-image" src alt="" />
                     </div>
-                  </SwiperSlide>
-                </Swiper>
-                    
-                  {/*<SwiperSlide>
+                    <div className="card-body text-center">
+                      <p className="italic mb-3">
+                        We got a reliable partner with PeakBooks.</p>
+                      <p className="testimonial-author">Mercy</p>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="card">
+                    <div className="center-image">
+                      <img className="card-image" src alt="" />
+                    </div>
+                    <div className="card-body text-center">
+                      <p className="italic mb-3">
+                        Just wondering why we  did not use PeakBooks initially, they have sorted us big time.</p>
+                      <p className="testimonial-author">Brain</p>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="card">
+                    <div className="center-image">
+                      <img className="card-image" src alt="" />
+                    </div>
+                    <div className="card-body text-center">
+                      <p className="italic mb-3">
+                        If you want a reliable accounting software, that is affordable, get PeakBooks.</p>
+                      <p className="testimonial-author">Hillary</p>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="card">
+                    <div className="center-image">
+                      <img className="card-image" src alt="" />
+                    </div>
+                    <div className="card-body text-center">
+                      <p className="italic mb-3">
+                        PeakBooks is helping small businesses like our's be digital in an affordable way.</p>
+                      <p className="testimonial-author">Michelle</p>
+                    </div>
+                  </div>
+                </SwiperSlide>
+              </Swiper>
+
+              {/*<SwiperSlide>
                     <div className="card">
                       <img className="card-image" src alt="" />
                       <div className="card-body">
@@ -498,253 +498,253 @@ function App() {
                     </div>
                   </SwiperSlide>
                   </Swiper>*/}
-              </div>
             </div>
           </div>
         </div>
-        {/* end of testimonials */}
-        {/* Pricing */}
-        <div id="pricing" className="cards-2">
-          <div className="absolute bottom-0 h-20 w-full bg-white" />
-          <div className="container px-4 pb-px sm:px-8">
-            <h2 className="mb-2.5 text-white lg:max-w-xl lg:mx-auto">Pricing</h2>
-            <p className="mb-16 text-white lg:max-w-3xl lg:mx-auto"> </p>
-            {/* Card*/}
-            <div className="card">
-              <div className="card-body">
-                <div className="card-title">Basic Plan</div>
-                <div className="price"><span className="currency">ksh.</span><span className="value">1,000</span></div>
-                <div className="frequency">monthly</div>
-                {/* <p>This basic package covers the marketing needs of small startups</p> */}
-                <ul className="list mb-7 space-y-2 text-left">
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>1 Admin + 1 Accountant</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Unlimited invoices</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Receipts</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Quotations</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Recurring Invoices</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Recurring Expenses</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Payment Reminders</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Finanacial Reports</div>
-                  </li>
-                </ul>
-                <div className="button-wrapper">
-                  <a className="btn-solid-reg page-scroll" href='https://www.peakbooks.biz/register'>Signup for a free trail</a>
-                </div>
-              </div>
-            </div> {/* end of card */}
-            {/* end of card */}
-            {/* Card*/}
-            <div className="card">
-              <div className="card-body">
-                <div className="card-title">Standard Plan</div>
-                <div className="price"><span className="currency">ksh</span><span className="value">1,500</span></div>
-                <div className="frequency">monthly </div>
-                {/* <p>This is a more advanced package suited for medium companies</p> */}
-                <ul className="list mb-7 space-y-2 text-left">
-                <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div><b>Basic Plan+</b></div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>2 Admins + 3 Accountants</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Bank Reconciliation</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Bills</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Document Upload</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Multi-Currency</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Sales Orders</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Sales Approval</div>
-                  </li>
-                </ul>
-                <div className="button-wrapper">
-                  <a className="btn-solid-reg page-scroll" href='https://www.peakbooks.biz/register'>Signup for a free trail</a>
-                </div>
-              </div>
-            </div> {/* end of card */}
-            {/* end of card */}
-            {/* Card*/}
-            <div className="card">
-              <div className="card-body">
-                <div className="card-title">Premium Plan</div>
-                <div className="price"><span className="currency">ksh</span><span className="value">2,000</span></div>
-                <div className="frequency">monthly</div>
-                {/* <p>This is a comprehensive package designed for big organizations</p> */}
-                <ul className="list mb-7 text-left space-y-2">
-                <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div><b>Standard Plan+</b></div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>3 Admins + 4 Accountants</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Purchase Orders</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Payroll</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Business Goals</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Reporting Tags</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Inventory</div>
-                  </li>
-                  <li className="flex">
-                    <i className="fas fa-chevron-right" />
-                    <div>Stock Tracking</div>
-                  </li>
-                </ul>
-                <div className="button-wrapper">
-                  <a className="btn-solid-reg page-scroll" href="https://www.peakbooks.biz/register">Signup for a free trail</a>
-                </div>
-              </div>
-            </div> {/* end of card */}
-            {/* end of card */}
-          </div> {/* end of container */}
-        </div> {/* end of cards-2 */}
-        {/* end of pricing */}
-        {/* Conclusion */}
-        <div id="download" className="basic-5">
-          <div className="container px-4 sm:px-8 lg:grid lg:grid-cols-2">
-            <div className="mb-16 lg:mb-0">
-              <img src={accounting_2} alt="alternative" />
-            </div>
-            <div className="lg:mt-24 xl:mt-44 xl:ml-12">
-              <p className="mb-9 text-gray-800 text-3xl leading-10">Sign up today for PeakBooks and enjoy hassle free Accounting on Africa’s number 1 accounting software and get up to 30 days free trial of a great accounting software.</p>
-              <a className="btn-solid-lg" href="https://www.peakbooks.biz/log_in">Login</a>
-              <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/register">Signup for a free trail</a>
-            </div>
-          </div> {/* end of container */}
-        </div> {/* end of basic-5 */}
-        {/* end of conclusion */}
-        <div className="counter">
-          <div className="container px-4 sm:px-8">
-            <div id="counter">
-              <div className="cell">
-                <div className="counter-value number-count" data-count={10000}>1</div>
-                <p className="counter-info">Happy Users</p>
-              </div>
-              <div className="cell">
-                <div className="counter-value number-count" data-count={98900}>1</div>
-                <p className="counter-info">Reports Generated</p>
-              </div>
-              <div className="cell">
-                <div className="counter-value number-count" data-count={500000}>1</div>
-                <p className="counter-info">Inventories Generated</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Footer */}
-        <div className="footer">
-          <div className="container px-4 sm:px-8">
-            <h4 className="mb-8 lg:max-w-3xl lg:mx-auto">Need a custom plan, tell us your specifications and we will build it for you. You can reach us at<br /> Email:<a className="text-indigo-600 hover:text-gray-500" href="mailto:peakbooks@peakbooks.biz">peakbooks@peakbooks.biz</a><br /> &amp; via Cell-Phone:+254 736 105920</h4>
-            <div className="social-container">
-              <span className="fa-stack">
-                <a href="#your-link">
-                  <i className="fas fa-circle fa-stack-2x" />
-                  <i className="fab fa-facebook-f fa-stack-1x" />
-                </a>
-              </span>
-              <span className="fa-stack">
-                <a href="#your-link">
-                  <i className="fas fa-circle fa-stack-2x" />
-                  <i className="fab fa-twitter fa-stack-1x" />
-                </a>
-              </span>
-              <span className="fa-stack">
-                <a href="#your-link">
-                  <i className="fas fa-circle fa-stack-2x" />
-                  <i className="fab fa-pinterest-p fa-stack-1x" />
-                </a>
-              </span>
-              <span className="fa-stack">
-                <a href="#your-link">
-                  <i className="fas fa-circle fa-stack-2x" />
-                  <i className="fab fa-instagram fa-stack-1x" />
-                </a>
-              </span>
-              <span className="fa-stack">
-                <a href="#your-link">
-                  <i className="fas fa-circle fa-stack-2x" />
-                  <i className="fab fa-youtube fa-stack-1x" />
-                </a>
-              </span>
-            </div> {/* end of social-container */}
-          </div> {/* end of container */}
-        </div> {/* end of footer */}
-        {/* end of footer */}
-        {/* Copyright */}
-        <div className="copyright">
-          <div className="container px-4 sm:px-8 lg:grid lg:grid-cols-3">
-            <ul className="mb-4 list-unstyled p-small">
-              {/*<li class="mb-2"><a href="article.html">Article Details</a></li>*/}
-              <li className="mb-2"><a href>Terms &amp; Conditions</a></li>
-              <li className="mb-2"><a href>Privacy Policy</a></li>
-            </ul>
-            <p className="pb-2 p-small statement">Copyright © <a href className="no-underline">PeakBooks</a></p>
-            <p className="pb-2 p-small statement">Distributed by :<a href className="no-underline">PeakBooks</a></p>
-          </div> 
-          {/* end of container */}
-        </div> {/* end of copyright */}
-        {/* end of copyright */}
-        {/* Scripts */}
-        {/* jQuery for JavaScript plugins */}
-        {/* jQuery Easing for smooth scrolling between anchors */}
-        {/* Swiper for image and text sliders */}
-        {/* Magnific Popup for lightboxes */}
-        {/* Custom scripts */}
       </div>
+      {/* end of testimonials */}
+      {/* Pricing */}
+      <div id="pricing" className="cards-2">
+        <div className="absolute bottom-0 h-20 w-full bg-white" />
+        <div className="container px-4 pb-px sm:px-8">
+          <h2 className="mb-2.5 text-white lg:max-w-xl lg:mx-auto">Pricing</h2>
+          <p className="mb-16 text-white lg:max-w-3xl lg:mx-auto"> </p>
+          {/* Card*/}
+          <div className="card">
+            <div className="card-body">
+              <div className="card-title">Basic Plan</div>
+              <div className="price"><span className="currency">ksh.</span><span className="value">500</span></div>
+              <div className="frequency">monthly</div>
+              {/* <p>This basic package covers the marketing needs of small startups</p> */}
+              <ul className="list mb-7 space-y-2 text-left">
+                <li className="flex">
+                  <i className="fas fa-chevron-right" />
+                  <div>1 Admin + 1 Accountant</div>
+                </li>
+                <li className="flex">
+                  <i className="fas fa-chevron-right" />
+                  <div>Unlimited invoices</div>
+                </li>
+                <li className="flex">
+                  <i className="fas fa-chevron-right" />
+                  <div>Receipts</div>
+                </li>
+                <li className="flex">
+                  <i className="fas fa-chevron-right" />
+                  <div>Quotations</div>
+                </li>
+                <li className="flex">
+                  <i className="fas fa-chevron-right" />
+                  <div>Recurring Invoices</div>
+                </li>
+                <li className="flex">
+                  <i className="fas fa-chevron-right" />
+                  <div>Recurring Expenses</div>
+                </li>
+                <li className="flex">
+                  <i className="fas fa-chevron-right" />
+                  <div>Payment Reminders</div>
+                </li>
+                <li className="flex">
+                  <i className="fas fa-chevron-right" />
+                  <div>Finanacial Reports</div>
+                </li>
+              </ul>
+              <div className="button-wrapper">
+                <a className="btn-solid-reg page-scroll" href='https://www.peakbooks.biz/register'>Signup for a free trail</a>
+              </div>
+            </div>
+          </div> {/* end of card */}
+          {/* end of card */}
+          {/* Card*/}
+          <div className="card">
+            <div className="card-body">
+              <div className="card-title">Standard Plan</div>
+              <div className="price"><span className="currency">ksh</span><span className="value">1,000</span></div>
+              <div className="frequency">monthly </div>
+              {/* <p>This is a more advanced package suited for medium companies</p> */}
+              <ul className="list mb-7 space-y-2 text-left">
+                <li className="flex">
+                  <i className="fas fa-chevron-right" />
+                  <div><b>Basic Plan+</b></div>
+                </li>
+                <li className="flex">
+                  <i className="fas fa-chevron-right" />
+                  <div>2 Admins + 3 Accountants</div>
+                </li>
+                <li className="flex">
+                  <i className="fas fa-chevron-right" />
+                  <div>Bank Reconciliation</div>
+                </li>
+                <li className="flex">
+                  <i className="fas fa-chevron-right" />
+                  <div>Bills</div>
+                </li>
+                <li className="flex">
+                  <i className="fas fa-chevron-right" />
+                  <div>Document Upload</div>
+                </li>
+                <li className="flex">
+                  <i className="fas fa-chevron-right" />
+                  <div>Multi-Currency</div>
+                </li>
+                <li className="flex">
+                  <i className="fas fa-chevron-right" />
+                  <div>Sales Orders</div>
+                </li>
+                <li className="flex">
+                  <i className="fas fa-chevron-right" />
+                  <div>Sales Approval</div>
+                </li>
+              </ul>
+              <div className="button-wrapper">
+                <a className="btn-solid-reg page-scroll" href='https://www.peakbooks.biz/register'>Signup for a free trail</a>
+              </div>
+            </div>
+          </div> {/* end of card */}
+          {/* end of card */}
+          {/* Card*/}
+          <div className="card">
+            <div className="card-body">
+              <div className="card-title">Premium Plan</div>
+              <div className="price"><span className="currency">ksh</span><span className="value">2,000</span></div>
+              <div className="frequency">monthly</div>
+              {/* <p>This is a comprehensive package designed for big organizations</p> */}
+              <ul className="list mb-7 text-left space-y-2">
+                <li className="flex">
+                  <i className="fas fa-chevron-right" />
+                  <div><b>Standard Plan+</b></div>
+                </li>
+                <li className="flex">
+                  <i className="fas fa-chevron-right" />
+                  <div>3 Admins + 4 Accountants</div>
+                </li>
+                <li className="flex">
+                  <i className="fas fa-chevron-right" />
+                  <div>Purchase Orders</div>
+                </li>
+                <li className="flex">
+                  <i className="fas fa-chevron-right" />
+                  <div>Payroll</div>
+                </li>
+                <li className="flex">
+                  <i className="fas fa-chevron-right" />
+                  <div>Business Goals</div>
+                </li>
+                <li className="flex">
+                  <i className="fas fa-chevron-right" />
+                  <div>Reporting Tags</div>
+                </li>
+                <li className="flex">
+                  <i className="fas fa-chevron-right" />
+                  <div>Inventory</div>
+                </li>
+                <li className="flex">
+                  <i className="fas fa-chevron-right" />
+                  <div>Stock Tracking</div>
+                </li>
+              </ul>
+              <div className="button-wrapper">
+                <a className="btn-solid-reg page-scroll" href="https://www.peakbooks.biz/register">Signup for a free trail</a>
+              </div>
+            </div>
+          </div> {/* end of card */}
+          {/* end of card */}
+        </div> {/* end of container */}
+      </div> {/* end of cards-2 */}
+      {/* end of pricing */}
+      {/* Conclusion */}
+      <div id="download" className="basic-5">
+        <div className="container px-4 sm:px-8 lg:grid lg:grid-cols-2">
+          <div className="mb-16 lg:mb-0">
+            <img src={accounting_2} alt="alternative" />
+          </div>
+          <div className="lg:mt-24 xl:mt-44 xl:ml-12">
+            <p className="mb-9 text-gray-800 text-3xl leading-10">Sign up today for PeakBooks and enjoy hassle free Accounting on Africa’s number 1 accounting software and get up to 30 days free trial of a great accounting software.</p>
+            <a className="btn-solid-lg" href="https://www.peakbooks.biz/log_in">Login</a>
+            <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/register">Signup for a free trail</a>
+          </div>
+        </div> {/* end of container */}
+      </div> {/* end of basic-5 */}
+      {/* end of conclusion */}
+      <div className="counter">
+        <div className="container px-4 sm:px-8">
+          <div id="counter">
+            <div className="cell">
+              <div className="counter-value number-count" data-count={10000}>1</div>
+              <p className="counter-info">Happy Users</p>
+            </div>
+            <div className="cell">
+              <div className="counter-value number-count" data-count={98900}>1</div>
+              <p className="counter-info">Reports Generated</p>
+            </div>
+            <div className="cell">
+              <div className="counter-value number-count" data-count={500000}>1</div>
+              <p className="counter-info">Inventories Generated</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Footer */}
+      <div className="footer">
+        <div className="container px-4 sm:px-8">
+          <h4 className="mb-8 lg:max-w-3xl lg:mx-auto">Need a custom plan, tell us your specifications and we will build it for you. You can reach us at<br /> Email:<a className="text-indigo-600 hover:text-gray-500" href="mailto:peakbooks@peakbooks.biz">peakbooks@peakbooks.biz</a><br /> &amp; via Cell-Phone:+254 736 105920</h4>
+          <div className="social-container">
+            <span className="fa-stack">
+              <a href="#your-link">
+                <i className="fas fa-circle fa-stack-2x" />
+                <i className="fab fa-facebook-f fa-stack-1x" />
+              </a>
+            </span>
+            <span className="fa-stack">
+              <a href="#your-link">
+                <i className="fas fa-circle fa-stack-2x" />
+                <i className="fab fa-twitter fa-stack-1x" />
+              </a>
+            </span>
+            <span className="fa-stack">
+              <a href="#your-link">
+                <i className="fas fa-circle fa-stack-2x" />
+                <i className="fab fa-pinterest-p fa-stack-1x" />
+              </a>
+            </span>
+            <span className="fa-stack">
+              <a href="#your-link">
+                <i className="fas fa-circle fa-stack-2x" />
+                <i className="fab fa-instagram fa-stack-1x" />
+              </a>
+            </span>
+            <span className="fa-stack">
+              <a href="#your-link">
+                <i className="fas fa-circle fa-stack-2x" />
+                <i className="fab fa-youtube fa-stack-1x" />
+              </a>
+            </span>
+          </div> {/* end of social-container */}
+        </div> {/* end of container */}
+      </div> {/* end of footer */}
+      {/* end of footer */}
+      {/* Copyright */}
+      <div className="copyright">
+        <div className="container px-4 sm:px-8 lg:grid lg:grid-cols-3">
+          <ul className="mb-4 list-unstyled p-small">
+            {/*<li class="mb-2"><a href="article.html">Article Details</a></li>*/}
+            <li className="mb-2"><a href>Terms &amp; Conditions</a></li>
+            <li className="mb-2"><a href>Privacy Policy</a></li>
+          </ul>
+          <p className="pb-2 p-small statement">Copyright © <a href className="no-underline">PeakBooks</a></p>
+          <p className="pb-2 p-small statement">Distributed by :<a href className="no-underline">PeakBooks</a></p>
+        </div>
+        {/* end of container */}
+      </div> {/* end of copyright */}
+      {/* end of copyright */}
+      {/* Scripts */}
+      {/* jQuery for JavaScript plugins */}
+      {/* jQuery Easing for smooth scrolling between anchors */}
+      {/* Swiper for image and text sliders */}
+      {/* Magnific Popup for lightboxes */}
+      {/* Custom scripts */}
+    </div>
 
   );
 }
