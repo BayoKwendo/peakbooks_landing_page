@@ -113,7 +113,7 @@ function App() {
                 <h1 className="h2-large mb-5">Africa’s <br />Number 1 <br />Accounting software <br />for SMEs.</h1>
                 <p className="p-large mb-8"></p>
                 <a className="btn-solid-lg" href="https://www.peakbooks.biz/log_in">Login</a>
-                <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/register">Sign up for a free trail</a>
+                <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/register">Sign up for a free trial</a>
               </div>
               <div className="xl:text-right">
                 <video width="750" height="500" controls >
@@ -551,7 +551,7 @@ function App() {
                 </li>
               </ul>
               <div className="button-wrapper">
-                <a className="btn-solid-reg page-scroll" href='https://www.peakbooks.biz/register'>Signup for a free trail</a>
+                <a className="btn-solid-reg page-scroll" href='https://www.peakbooks.biz/register'>Signup for a free trial</a>
               </div>
             </div>
           </div> {/* end of card */}
@@ -598,7 +598,7 @@ function App() {
                 </li>
               </ul>
               <div className="button-wrapper">
-                <a className="btn-solid-reg page-scroll" href='https://www.peakbooks.biz/register'>Signup for a free trail</a>
+                <a className="btn-solid-reg page-scroll" href='https://www.peakbooks.biz/register'>Signup for a free trial</a>
               </div>
             </div>
           </div> {/* end of card */}
@@ -645,7 +645,7 @@ function App() {
                 </li>
               </ul>
               <div className="button-wrapper">
-                <a className="btn-solid-reg page-scroll" href="https://www.peakbooks.biz/register">Signup for a free trail</a>
+                <a className="btn-solid-reg page-scroll" href="https://www.peakbooks.biz/register">Signup for a free trial</a>
               </div>
             </div>
           </div> {/* end of card */}
@@ -662,7 +662,7 @@ function App() {
           <div className="lg:mt-24 xl:mt-44 xl:ml-12">
             <p className="mb-9 text-gray-800 text-3xl leading-10">Sign up today for PeakBooks and enjoy hassle free Accounting on Africa’s number 1 accounting software and get up to 30 days free trial of a great accounting software.</p>
             <a className="btn-solid-lg" href="https://www.peakbooks.biz/log_in">Login</a>
-            <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/register">Signup for a free trail</a>
+            <a className="btn-solid-lg secondary" href="https://www.peakbooks.biz/register">Signup for a free trial</a>
           </div>
         </div> {/* end of container */}
       </div> {/* end of basic-5 */}
