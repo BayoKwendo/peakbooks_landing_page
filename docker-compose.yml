@@ -8,7 +8,7 @@ services:
   web_web:
     stdin_open: true
     restart: always
-    container_name: web
+    container_name: web_landing
     networks:
       - back-tier
     build:
