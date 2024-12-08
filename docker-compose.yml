@@ -1,0 +1,23 @@
+version: '3.3'
+
+networks:
+  back-tier:
+    external: true
+
+services:
+  web_web:
+    stdin_open: true
+    restart: always
+    container_name: web
+    networks:
+      - back-tier
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - 1214:1214
+    environment:
+      - CHOKIDAR_USEPOLLING=true
