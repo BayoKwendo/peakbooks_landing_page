@@ -17,4 +17,4 @@ RUN npm install -g serve@13.0.4
 
 # CMD serve -s build
 
-CMD ["npx", "serve", "-s", "build", "-p", "1414"]
+CMD ["npx", "serve", "-s", "build", "-p", "1214"]
