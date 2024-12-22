@@ -604,12 +604,11 @@ function App() {
           </div> {/* end of card */}
           {/* end of card */}
           {/* Card*/}
-          <div className="card">
+          {/* <div className="card">
             <div className="card-body">
               <div className="card-title">Premium Plan</div>
               <div className="price"><span className="currency">ksh</span><span className="value">2,000</span></div>
               <div className="frequency">monthly</div>
-              {/* <p>This is a comprehensive package designed for big organizations</p> */}
               <ul className="list mb-7 text-left space-y-2">
                 <li className="flex">
                   <i className="fas fa-chevron-right" />
@@ -648,7 +647,8 @@ function App() {
                 <a className="btn-solid-reg page-scroll" href="https://www.peakbooks.biz/register">Signup for a free trial</a>
               </div>
             </div>
-          </div> {/* end of card */}
+          </div> */}
+          {/* end of card */}
           {/* end of card */}
         </div> {/* end of container */}
       </div> {/* end of cards-2 */}
