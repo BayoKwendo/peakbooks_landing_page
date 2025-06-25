@@ -529,6 +529,18 @@ function App() {
                   <i className="fas fa-chevron-right" />
                   <div>Receipts</div>
                 </li>
+
+
+                <li className="flex">
+                  <i className="fas fa-chevron-right" />
+                  <div>Suppliers</div>
+                </li>
+
+                <li className="flex">
+                  <i className="fas fa-chevron-right" />
+                  <div>Banking</div>
+                </li>
+
                 <li className="flex">
                   <i className="fas fa-chevron-right" />
                   <div>Quotations</div>
